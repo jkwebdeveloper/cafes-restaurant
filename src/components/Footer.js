@@ -66,7 +66,7 @@ const Footer = () => {
                       href="images/grid_gal1.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal1.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal1.jpg")} alt="" />
                     </a>
                   </li>
                   <li>
@@ -74,7 +74,7 @@ const Footer = () => {
                       href="images/grid_gal2.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal2.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal2.jpg")} alt="" />
                     </a>
                   </li>
                   <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                       href="images/grid_gal3.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal3.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal3.jpg")} alt="" />
                     </a>
                   </li>
                   <li>
@@ -90,7 +90,7 @@ const Footer = () => {
                       href="images/grid_gal4.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal4.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal4.jpg")} alt="" />
                     </a>
                   </li>
                   <li>
@@ -98,7 +98,7 @@ const Footer = () => {
                       href="images/grid_gal5.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal5.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal5.jpg")} alt="" />
                     </a>
                   </li>
                   <li>
@@ -106,7 +106,7 @@ const Footer = () => {
                       href="images/grid_gal6.jpg"
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src="images/grid_gal1.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal1.jpg")} alt="" />
                     </a>
                   </li>
                 </ul>

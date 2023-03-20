@@ -1,4 +1,5 @@
 import React from 'react'
+import service3 from '../assets/images/service3.jpg'
 
 const MenuCoffee = () => {
   return (
@@ -8,11 +9,11 @@ const MenuCoffee = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/service3.jpg)' }}
+            style={{ backgroundImage: `url(${service3})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -25,20 +26,20 @@ const MenuCoffee = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Choose Best of
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Coffee Menu
               </h3>
             </div>
             <div
-              className="kf-filter kf-filter-menu element-anim-1 scroll-animate"
+              className="kf-filter kf-filter-menu"
               data-animate="active"
             >
               <a href="#" data-href=".all" className="active">
@@ -61,7 +62,7 @@ const MenuCoffee = () => {
               <div className="row">
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -80,7 +81,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -99,7 +100,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -118,7 +119,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -137,7 +138,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -156,7 +157,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -175,7 +176,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all fast-food">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -194,7 +195,7 @@ const MenuCoffee = () => {
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all fast-food">
                   <div
-                    className="kf-menu-item element-anim-1 scroll-animate"
+                    className="kf-menu-item"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
@@ -219,7 +220,7 @@ const MenuCoffee = () => {
         <section className="section kf-reservation kf-section-no-margin">
           <div className="container">
             <div
-              className="kf-reservation-form element-anim-1 scroll-animate"
+              className="kf-reservation-form"
               data-animate="active"
             >
               <div
@@ -306,7 +307,7 @@ const MenuCoffee = () => {
             <div className="kf-brands-items row">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
@@ -316,7 +317,7 @@ const MenuCoffee = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
@@ -326,7 +327,7 @@ const MenuCoffee = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
@@ -336,7 +337,7 @@ const MenuCoffee = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
@@ -346,7 +347,7 @@ const MenuCoffee = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
@@ -356,7 +357,7 @@ const MenuCoffee = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">

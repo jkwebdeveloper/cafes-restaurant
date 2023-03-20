@@ -27,7 +27,7 @@ const Home = () => {
                     }}
                   />
                   <div className="container">
-                    <div className="description align-left element-anim-1">
+                    <div className="description align-left">
                       <div className="subtitles">Welcome to the Kaffen</div>
                       <h2 className="name text-anim-1" data-splitting="chars">
                         The London <br />
@@ -57,7 +57,7 @@ const Home = () => {
                     }}
                   />
                   <div className="container">
-                    <div className="description align-left element-anim-1">
+                    <div className="description align-left">
                       <div className="subtitles">Welcome to the Kaffen</div>
                       <h2 className="name text-anim-1" data-splitting="chars">
                         The Paris

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -57,16 +56,16 @@ const Header = () => {
               <div className="kf-main-menu">
                 <ul>
                   <li>
-                    <a href="index.html">
+                    <a href="/index">
                       Home
                       <i className="las la-angle-down" />
                     </a>
                     <ul>
                       <li>
-                        <a href="index.html">Coffee House</a>
+                        <a href="/">Coffee House</a>
                       </li>
                       <li>
-                        <a href="index-2.html">Restaurant</a>
+                        <a href="/restaurant">Restaurant</a>
                       </li>
                     </ul>
                   </li>
@@ -75,16 +74,16 @@ const Header = () => {
                     </li>
                   
                   <li>
-                    <a href="menu-coffee.html">
+                    <a href="/menu-coffee">
                       Menu
                       <i className="las la-angle-down" />
                     </a>
                     <ul>
                       <li>
-                        <a href="menu-coffee.html">Menu Coffee</a>
+                        <a href="/menu-coffee">Menu Coffee</a>
                       </li>
                       <li>
-                        <a href="menu-restaurant.html">Menu Restaurant</a>
+                        <a href="/menu-restaurant">Menu Restaurant</a>
                       </li>
                     </ul>
                   </li>
@@ -95,22 +94,22 @@ const Header = () => {
                     </a>
                     <ul>
                       <li>
-                        <a href="services.html">Service</a>
+                        <a href="/services">Service</a>
                       </li>
                       <li>
-                        <a href="reservation.html">Reservation</a>
+                        <a href="/reservation">Reservation</a>
                       </li>
                       <li>
-                        <a href="history.html">History</a>
+                        <a href="/history">History</a>
                       </li>
                       <li>
-                        <a href="team.html">Our Chefs</a>
+                        <a href="/team">Our Chefs</a>
                       </li>
                       <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="/gallery">Gallery</a>
                       </li>
                       <li>
-                        <a href="faq.html">FAQ</a>
+                        <a href="/faq">FAQ</a>
                       </li>
                     </ul>
                   </li>
@@ -126,7 +125,7 @@ const Header = () => {
                 <span />
               </a>
               {/* btn */}
-              <a href="reservation.html" className="kf-btn h-btn">
+              <a href="/reservation" className="kf-btn h-btn">
                 <span>Book a table</span>
               </a>
             </div>
@@ -138,29 +137,29 @@ const Header = () => {
           <div className="kf-main-menu">
             <ul>
               <li className="has-children">
-                <a href="index.html">Home</a>
+                <a href="/index">Home</a>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="index.html">Coffee House</a>
+                    <a href="/index">Coffee House</a>
                   </li>
                   <li>
-                    <a href="index-2.html">Restaurant</a>
+                    <a href="/index-2">Restaurant</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="/about">About</a>
               </li>
               <li className="has-children">
-                <a href="menu-coffee.html">Menu</a>
+                <a href="/menu-coffee">Menu</a>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="menu-coffee.html">Menu Coffee</a>
+                    <a href="/menu-coffee">Menu Coffee</a>
                   </li>
                   <li>
-                    <a href="menu-restaurant.html">Menu Restaurant</a>
+                    <a href="/menu-restaurant">Menu Restaurant</a>
                   </li>
                 </ul>
               </li>
@@ -169,22 +168,22 @@ const Header = () => {
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="services.html">Service</a>
+                    <a href="/services">Service</a>
                   </li>
                   <li>
-                    <a href="reservation.html">Reservation</a>
+                    <a href="/reservation">Reservation</a>
                   </li>
                   <li>
-                    <a href="history.html">History</a>
+                    <a href="/history">History</a>
                   </li>
                   <li>
-                    <a href="team.html">Our Chefs</a>
+                    <a href="/team">Our Chefs</a>
                   </li>
                   <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="/gallery">Gallery</a>
                   </li>
                   <li>
-                    <a href="faq.html">FAQ</a>
+                    <a href="/faq">FAQ</a>
                   </li>
                 </ul>
               </li>
@@ -193,18 +192,18 @@ const Header = () => {
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="blog-grid.html">Blog Grid</a>
+                    <a href="/blog-grid">Blog Grid</a>
                   </li>
                   <li>
-                    <a href="blog.html">Blog Standard</a>
+                    <a href="/blog">Blog Standard</a>
                   </li>
                   <li>
-                    <a href="blog-single.html">Blog Single</a>
+                    <a href="/blog-single">Blog Single</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="contacts.html">Contacts</a>
+                <a href="/contacts">Contacts</a>
               </li>
             </ul>
           </div>
@@ -213,7 +212,7 @@ const Header = () => {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* mobile btn */}
-                <a href="reservation.html" className="kf-btn h-btn">
+                <a href="/reservation" className="kf-btn h-btn">
                   <span>Book a table</span>
                   <i className="fas fa-chevron-right" />
                 </a>
