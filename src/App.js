@@ -24,15 +24,15 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Faq />} />
-          <Route path="/" element={<Gallery />} />
-          <Route path="/" element={<History />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/history" element={<History />} />
           <Route path="/restaurant" element={<Restaurant />} />
-          <Route path="/" element={<MenuCoffee />} />
-          <Route path="/" element={<MenuRestaurant />} />
-          <Route path="/" element={<Reservation />} />
-          <Route path="/" element={<Services />} />
-          <Route path="/" element={<Team />} />
+          <Route path="/menu-coffee" element={<MenuCoffee />} />
+          <Route path="/menu-restaurant" element={<MenuRestaurant />} />
+          <Route path="/reservation" element={<Reservation />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />
       </BrowserRouter>

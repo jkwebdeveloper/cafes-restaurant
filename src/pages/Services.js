@@ -1,4 +1,8 @@
 import React from 'react'
+import services_inner_bg from '../assets/images/services_inner_bg.jpg'
+import cta_bg from '../assets/images/cta_bg.jpg'
+
+
 
 const Services = () => {
   return (
@@ -8,11 +12,11 @@ const Services = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/services_inner_bg.jpg)' }}
+            style={{ backgroundImage: `url(${services_inner_bg})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -25,13 +29,13 @@ const Services = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 We provide
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Services One
@@ -40,11 +44,11 @@ const Services = () => {
             <div className="kf-services-items row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div
-                  className="kf-services-item element-anim-1 scroll-animate"
+                  className="kf-services-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <img src="images/service1.jpg" alt="" />
+                    <img src={require("../assets/images/service1.jpg")} alt="" />
                   </div>
                   <div className="desc">
                     <div className="icon">
@@ -56,11 +60,11 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div
-                  className="kf-services-item element-anim-1 scroll-animate"
+                  className="kf-services-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <img src="images/service2.jpg" alt="" />
+                    <img src={require("../assets/images/service2.jpg")} alt="" />
                   </div>
                   <div className="desc">
                     <div className="icon">
@@ -72,11 +76,11 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div
-                  className="kf-services-item element-anim-1 scroll-animate"
+                  className="kf-services-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <img src="images/service3.jpg" alt="" />
+                    <img src={require("../assets/images/service3.jpg")} alt="" />
                   </div>
                   <div className="desc">
                     <div className="icon">
@@ -94,13 +98,13 @@ const Services = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 What we do
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Services Two
@@ -109,7 +113,7 @@ const Services = () => {
             <div className="kf-numbers-items-2 row">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -123,7 +127,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -137,7 +141,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -151,7 +155,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -165,7 +169,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -179,7 +183,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -193,7 +197,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -207,7 +211,7 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
                 <div
-                  className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                  className="kf-numbers-item-2"
                   data-animate="active"
                 >
                   <div className="icon">
@@ -227,13 +231,13 @@ const Services = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Our awesome
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Services Three
@@ -242,11 +246,11 @@ const Services = () => {
             <div className="kf-services-items-2 row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-services-item-2 element-anim-1 scroll-animate"
+                  className="kf-services-item-2"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/service_icon1.png" alt="" />
+                    <img src={require("../assets/images/service_icon1.png")} alt="" />
                   </div>
                   <div className="desc">
                     <h5 className="name">Birthday Cakes</h5>
@@ -256,11 +260,11 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-services-item-2 element-anim-1 scroll-animate"
+                  className="kf-services-item-2"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/service_icon2.png" alt="" />
+                    <img src={require("../assets/images/service_icon2.png")} alt="" />
                   </div>
                   <div className="desc">
                     <h5 className="name">Fresh Foods</h5>
@@ -270,11 +274,11 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-services-item-2 element-anim-1 scroll-animate"
+                  className="kf-services-item-2"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/service_icon3.png" alt="" />
+                    <img src={require("../assets/images/service_icon3.png")} alt="" />
                   </div>
                   <div className="desc">
                     <h5 className="name">Skills Chefs</h5>
@@ -284,11 +288,11 @@ const Services = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-services-item-2 element-anim-1 scroll-animate"
+                  className="kf-services-item-2"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/service_icon4.png" alt="" />
+                    <img src={require("../assets/images/service_icon4.png")} alt="" />
                   </div>
                   <div className="desc">
                     <h5 className="name">Organic Juice</h5>
@@ -302,20 +306,20 @@ const Services = () => {
         {/* Section CTA */}
         <section
           className="section kf-cta kf-parallax"
-          style={{ backgroundImage: 'url(images/cta_bg.jpg)' }}
+          style={{ backgroundImage: `url(${cta_bg})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <div className="kf-titles">
                   <div
-                    className="kf-subtitle element-anim-1 scroll-animate"
+                    className="kf-subtitle"
                     data-animate="active"
                   >
                     Need a Table On Coffee House
                   </div>
                   <h3
-                    className="kf-title element-anim-1 scroll-animate"
+                    className="kf-title"
                     data-animate="active"
                   >
                     Booking Table For Your &amp; Family Members
@@ -325,7 +329,7 @@ const Services = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
                 <a
                   href="reservation.html"
-                  className="kf-btn element-anim-1 scroll-animate"
+                  className="kf-btn"
                   data-animate="active"
                 >
                   <span>booking table</span>

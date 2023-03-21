@@ -1,4 +1,5 @@
 import React from 'react'
+import menu_reservation_inner_bg from '../assets/images/menu_reservation_inner_bg.jpg'
 
 const Contact = () => {
   return (
@@ -9,12 +10,12 @@ const Contact = () => {
           <div
             className="kf-parallax-bg js-parallax"
             style={{
-              backgroundImage: 'url(images/menu_reservation_inner_bg.jpg)',
+              backgroundImage: `url(${menu_reservation_inner_bg})`,
             }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -28,11 +29,11 @@ const Contact = () => {
             <div className="kf-contacts-items row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                 <div
-                  className="kf-contacts-item element-anim-1 scroll-animate"
+                  className="kf-contacts-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    {/*<img src="images/contact_icon1.png" alt="" />*/}
+                    {/*<img src={require("../assets/images/contact_icon1.png")}  alt="" />*/}
                     <i className="las la-map-marked-alt" />
                   </div>
                   <div className="desc">
@@ -52,11 +53,11 @@ const Contact = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                 <div
-                  className="kf-contacts-item element-anim-1 scroll-animate"
+                  className="kf-contacts-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    {/*<img src="images/contact_icon2.png" alt="" />*/}
+                    {/*<img src={require("../assets/images/contact_icon2.png")}  alt="" />*/}
                     <i className="las la-envelope-open-text" />
                   </div>
                   <div className="desc">
@@ -76,11 +77,11 @@ const Contact = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                 <div
-                  className="kf-contacts-item element-anim-1 scroll-animate"
+                  className="kf-contacts-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    {/*<img src="images/contact_icon3.png" alt="" />*/}
+                    {/*<img src={require("../assets/images/contact_icon3.png")}  alt="" />*/}
                     <i className="las la-headset" />
                   </div>
                   <div className="desc">
@@ -105,7 +106,7 @@ const Contact = () => {
         <section className="section kf-contacts-form">
           <div className="container">
             <div
-              className="kf-reservation-form element-anim-1 scroll-animate"
+              className="kf-reservation-form"
               data-animate="active"
             >
               <div className="kf-titles align-center">
@@ -172,7 +173,7 @@ const Contact = () => {
         </section>
         {/* Section Insta Carousel */}
         <div
-          className="section kf-insta-carousel element-anim-1 scroll-animate"
+          className="section kf-insta-carousel"
           data-animate="active"
         >
           <div className="container">
@@ -181,8 +182,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal1.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal1.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -191,8 +192,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal2.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal2.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -201,8 +202,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal3.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal3.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -211,8 +212,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal4.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal4.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -221,8 +222,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal5.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal5.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -231,8 +232,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal6.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal6.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -241,8 +242,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal1.jpg" alt="" />
+                      <a href="/nstagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal1.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -251,8 +252,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal2.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal2.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -261,8 +262,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal3.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal3.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -271,8 +272,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal4.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal4.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -281,8 +282,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal5.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal5.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -291,8 +292,8 @@ const Contact = () => {
                 <div className="swiper-slide">
                   <div className="slide-item">
                     <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal6.jpg" alt="" />
+                      <a href="/instagram.com" target="blank">
+                        <img src={require("../assets/images/ins_gal6.jpg")}  alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -308,61 +309,61 @@ const Contact = () => {
             <div className="kf-brands-items row">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand1.png" alt="" />
+                    <img src={require("../assets/images/brand1.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand2.png" alt="" />
+                    <img src={require("../assets/images/brand2.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand3.png" alt="" />
+                    <img src={require("../assets/images/brand3.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand4.png" alt="" />
+                    <img src={require("../assets/images/brand4.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand5.png" alt="" />
+                    <img src={require("../assets/images/brand5.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand6.png" alt="" />
+                    <img src={require("../assets/images/brand6.png")}  alt="" />
                   </div>
                 </div>
               </div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import gallery_inner_bg from '../assets/images/gallery_inner_bg.jpg'
+import cta_bg3 from '../assets/images/cta_bg3.jpg'
 
 const Gallery = () => {
   return (
@@ -8,11 +10,11 @@ const Gallery = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/gallery_inner_bg.jpg)' }}
+            style={{ backgroundImage: `url(${gallery_inner_bg})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -25,20 +27,20 @@ const Gallery = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Our Photo Gallery
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Looks Our Photo Gallery
               </h3>
             </div>
             <div
-              className="kf-filter kf-filter-gal element-anim-1 scroll-animate"
+              className="kf-filter kf-filter-gal"
               data-animate="active"
             >
               <a href="#" data-href=".all" className="active">
@@ -60,12 +62,12 @@ const Gallery = () => {
             <div className="kf-gallery-items row">
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal1.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal1.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal1.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -80,12 +82,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal2.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal2.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal2.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -100,12 +102,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal3.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal3.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal3.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -120,12 +122,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all special-pizza">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal4.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal4.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal4.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -140,12 +142,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal5.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal5.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal5.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -160,12 +162,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/ins_gal6.jpg" className="has-popup-gallery">
-                      <img src="images/ins_gal6.jpg" alt="" />
+                      <img src={require("../assets/images/ins_gal6.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -180,7 +182,7 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
@@ -188,7 +190,7 @@ const Gallery = () => {
                       href="images/grid_gal1.jpg"
                       className="has-popup-gallery"
                     >
-                      <img src="images/grid_gal1.jpg" alt="" />
+                      <img src={require("../assets/images/grid_gal1.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -203,12 +205,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/menu_r4.jpg" className="has-popup-gallery">
-                      <img src="images/menu_r4.jpg" alt="" />
+                      <img src={require("../assets/images/menu_r4.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -223,12 +225,12 @@ const Gallery = () => {
               </div>
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
                 <div
-                  className="kf-gallery-item element-anim-1 scroll-animate"
+                  className="kf-gallery-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="images/menu_r6.jpg" className="has-popup-gallery">
-                      <img src="images/menu_r6.jpg" alt="" />
+                      <img src={require("../assets/images/menu_r6.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -247,20 +249,20 @@ const Gallery = () => {
         {/* Section CTA */}
         <section
           className="section kf-cta kf-parallax"
-          style={{ backgroundImage: 'url(images/cta_bg3.jpg)' }}
+          style={{ backgroundImage: `url(${cta_bg3})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <div className="kf-titles">
                   <div
-                    className="kf-subtitle element-anim-1 scroll-animate"
+                    className="kf-subtitle"
                     data-animate="active"
                   >
                     Need a Table On Coffee House
                   </div>
                   <h3
-                    className="kf-title element-anim-1 scroll-animate"
+                    className="kf-title"
                     data-animate="active"
                   >
                     Booking Table For Your &amp; Family Members
@@ -270,7 +272,7 @@ const Gallery = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
                 <a
                   href="reservation.html"
-                  className="kf-btn element-anim-1 scroll-animate"
+                  className="kf-btn"
                   data-animate="active"
                 >
                   <span>booking table</span>
@@ -286,61 +288,61 @@ const Gallery = () => {
             <div className="kf-brands-items row">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand1.png" alt="" />
+                    <img src={require("../assets/images/brand1.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand2.png" alt="" />
+                    <img src={require("../assets/images/brand2.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand3.png" alt="" />
+                    <img src={require("../assets/images/brand3.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand4.png" alt="" />
+                    <img src={require("../assets/images/brand4.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand5.png" alt="" />
+                    <img src={require("../assets/images/brand5.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand6.png" alt="" />
+                    <img src={require("../assets/images/brand6.png")}  alt="" />
                   </div>
                 </div>
               </div>

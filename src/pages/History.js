@@ -1,4 +1,9 @@
 import React from 'react'
+import history_inner_bg from '../assets/images/history_inner_bg.jpg'
+import quote_line_icon1 from '../assets/images/quote_line_icon1.png'
+import quote_line_icon2 from '../assets/images/quote_line_icon2.png'
+import cta_bg from '../assets/images/cta_bg.jpg'
+
 
 const History = () => {
   return (
@@ -8,11 +13,11 @@ const History = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/history_inner_bg.jpg)' }}
+            style={{ backgroundImage: `url(${history_inner_bg})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -26,17 +31,17 @@ const History = () => {
             <div className="kf-parallax-icon pi-4" data-jarallax-element={-60}>
               <div
                 className="p-icon"
-                style={{ backgroundImage: 'url(images/quote_line_icon1.png)' }}
+                style={{ backgroundImage: `url(${quote_line_icon1})` }}
               />
             </div>
             <div className="kf-parallax-icon pi-5" data-jarallax-element={-80}>
               <div
                 className="p-icon"
-                style={{ backgroundImage: 'url(images/quote_line_icon2.png)' }}
+                style={{ backgroundImage: `url(${quote_line_icon2})` }}
               />
             </div>
             <div
-              className="kf-quote-box element-anim-1 scroll-animate"
+              className="kf-quote-box"
               data-animate="active"
             >
               <div className="text">
@@ -47,7 +52,7 @@ const History = () => {
               </div>
               <div className="info">
                 <div className="img">
-                  <img src="images/quote_img2.jpg" alt="" />
+                  <img src={require("../assets/images/quote_img2.jpg")}  alt="" />
                 </div>
                 <h5 className="name">Dante J. Castaneda</h5>
                 <div className="subname">CEO &amp; Founder</div>
@@ -60,13 +65,13 @@ const History = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Our Kaffen History
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Something Know About Our History
@@ -77,11 +82,11 @@ const History = () => {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <div
-                      className="kf-history-item element-anim-1 scroll-animate"
+                      className="kf-history-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/history1.jpg" alt="" />
+                        <img src={require("../assets/images/history1.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="subname">
@@ -108,11 +113,11 @@ const History = () => {
                   </div>
                   <div className="swiper-slide">
                     <div
-                      className="kf-history-item element-anim-1 scroll-animate"
+                      className="kf-history-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/history2.jpg" alt="" />
+                        <img src={require("../assets/images/history2.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="subname">
@@ -139,11 +144,11 @@ const History = () => {
                   </div>
                   <div className="swiper-slide">
                     <div
-                      className="kf-history-item element-anim-1 scroll-animate"
+                      className="kf-history-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/history3.jpg" alt="" />
+                        <img src={require("../assets/images/history3.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="subname">We got a Michelin star</div>
@@ -168,11 +173,11 @@ const History = () => {
                   </div>
                   <div className="swiper-slide">
                     <div
-                      className="kf-history-item element-anim-1 scroll-animate"
+                      className="kf-history-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/history4.jpg" alt="" />
+                        <img src={require("../assets/images/history4.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="subname">
@@ -216,61 +221,61 @@ const History = () => {
             <div className="kf-brands-items row">
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand1.png" alt="" />
+                    <img src={require("../assets/images/brand1.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand2.png" alt="" />
+                    <img src={require("../assets/images/brand2.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand3.png" alt="" />
+                    <img src={require("../assets/images/brand3.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand4.png" alt="" />
+                    <img src={require("../assets/images/brand4.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand5.png" alt="" />
+                    <img src={require("../assets/images/brand5.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand6.png" alt="" />
+                    <img src={require("../assets/images/brand6.png")}  alt="" />
                   </div>
                 </div>
               </div>
@@ -282,13 +287,13 @@ const History = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Get Every Single Update
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Read Some Latest Blog &amp; News
@@ -297,12 +302,12 @@ const History = () => {
             <div className="kf-blog-grid-items row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div
-                  className="kf-blog-grid-item element-anim-1 scroll-animate"
+                  className="kf-blog-grid-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="blog-single.html">
-                      <img src="images/latest_blog1.jpg" alt="" />
+                      <img src={require("../assets/images/latest_blog1.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -322,12 +327,12 @@ const History = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div
-                  className="kf-blog-grid-item element-anim-1 scroll-animate"
+                  className="kf-blog-grid-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="blog-single.html">
-                      <img src="images/latest_blog2.jpg" alt="" />
+                      <img src={require("../assets/images/latest_blog2.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -348,12 +353,12 @@ const History = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                 <div
-                  className="kf-blog-grid-item element-anim-1 scroll-animate"
+                  className="kf-blog-grid-item"
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
                     <a href="blog-single.html">
-                      <img src="images/latest_blog3.jpg" alt="" />
+                      <img src={require("../assets/images/latest_blog3.jpg")}  alt="" />
                     </a>
                   </div>
                   <div className="desc">
@@ -375,7 +380,7 @@ const History = () => {
             <div className="align-center">
               <a
                 href="#"
-                className="kf-btn element-anim-1 scroll-animate"
+                className="kf-btn"
                 data-animate="active"
               >
                 <span>view all</span>
@@ -387,20 +392,20 @@ const History = () => {
         {/* Section CTA */}
         <section
           className="section kf-cta kf-parallax"
-          style={{ backgroundImage: 'url(images/cta_bg.jpg)' }}
+          style={{ backgroundImage: `url(${cta_bg})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <div className="kf-titles">
                   <div
-                    className="kf-subtitle element-anim-1 scroll-animate"
+                    className="kf-subtitle"
                     data-animate="active"
                   >
                     Need a Table On Coffee House
                   </div>
                   <h3
-                    className="kf-title element-anim-1 scroll-animate"
+                    className="kf-title"
                     data-animate="active"
                   >
                     Booking Table For Your &amp; Family Members
@@ -410,7 +415,7 @@ const History = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
                 <a
                   href="reservation.html"
-                  className="kf-btn element-anim-1 scroll-animate"
+                  className="kf-btn"
                   data-animate="active"
                 >
                   <span>booking table</span>

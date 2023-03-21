@@ -1,4 +1,7 @@
 import React from 'react'
+import team_inner_bg from '../assets/images/team_inner_bg.jpg'
+import cta_bg from '../assets/images/cta_bg.jpg'
+import testimonials_bg2 from '../assets/images/testimonials_bg2.jpeg'
 
 const Team = () => {
   return (
@@ -8,11 +11,11 @@ const Team = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/team_inner_bg.jpg)' }}
+            style={{ backgroundImage: `url(${team_inner_bg})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -25,13 +28,13 @@ const Team = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Experience Team Member
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Meet Our Professional Chefs
@@ -40,7 +43,7 @@ const Team = () => {
             <div className="kf-team-items row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -48,7 +51,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team1.jpg" alt="" />
+                    <img src={require("../assets/images/team1.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">bowmankf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -72,7 +75,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -80,7 +83,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team2.jpg" alt="" />
+                    <img src={require("../assets/images/team2.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">gonzalezkf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -104,7 +107,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -112,7 +115,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team3.jpg" alt="" />
+                    <img src={require("../assets/images/team3.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">lawrencekf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -136,7 +139,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -144,7 +147,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team4.jpg" alt="" />
+                    <img src={require("../assets/images/team4.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">smithkf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -168,7 +171,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -176,7 +179,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team5.jpg" alt="" />
+                    <img src={require("../assets/images/team5.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">whitekf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -200,7 +203,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -208,7 +211,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team6.jpg" alt="" />
+                    <img src={require("../assets/images/team6.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">sewardkf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -232,7 +235,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -240,7 +243,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team7.jpg" alt="" />
+                    <img src={require("../assets/images/team7.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">williamskf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -264,7 +267,7 @@ const Team = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                 <div
-                  className="kf-team-item element-anim-1 scroll-animate"
+                  className="kf-team-item"
                   data-animate="active"
                 >
                   <div className="desc">
@@ -272,7 +275,7 @@ const Team = () => {
                     <div className="subname">Senior Chefs</div>
                   </div>
                   <div className="image kf-image-hover">
-                    <img src="images/team8.jpg" alt="" />
+                    <img src={require("../assets/images/team8.jpg")}  alt="" />
                     <div className="info">
                       <div className="label">dixonkf@gmail.com</div>
                       <div className="label">+012 (345) 678 99</div>
@@ -300,20 +303,20 @@ const Team = () => {
         {/* Section CTA */}
         <section
           className="section kf-cta kf-parallax"
-          style={{ backgroundImage: 'url(images/cta_bg.jpg)' }}
+          style={{ backgroundImage: `url(${cta_bg})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <div className="kf-titles">
                   <div
-                    className="kf-subtitle element-anim-1 scroll-animate"
+                    className="kf-subtitle"
                     data-animate="active"
                   >
                     Need a Table On Coffee House
                   </div>
                   <h3
-                    className="kf-title element-anim-1 scroll-animate"
+                    className="kf-title"
                     data-animate="active"
                   >
                     Booking Table For Your &amp; Family Members
@@ -323,7 +326,7 @@ const Team = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
                 <a
                   href="reservation.html"
-                  className="kf-btn element-anim-1 scroll-animate"
+                  className="kf-btn"
                   data-animate="active"
                 >
                   <span>booking table</span>
@@ -336,18 +339,18 @@ const Team = () => {
         {/* Section Testimonials Carousel */}
         <section
           className="section kf-testimonials kf-testimonials-2 section-bg"
-          style={{ backgroundImage: 'url(images/testimonials_bg2.jpeg)' }}
+          style={{ backgroundImage: `url(${testimonials_bg2})` }}
         >
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Customer Feedback
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 What Our Clients Say
@@ -358,11 +361,11 @@ const Team = () => {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <div
-                      className="slide-item element-anim-1 scroll-animate"
+                      className="slide-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev1.jpg" alt="" />
+                        <img src={require("../assets/images/rev1.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -385,11 +388,11 @@ const Team = () => {
                   </div>
                   <div className="swiper-slide">
                     <div
-                      className="slide-item element-anim-1 scroll-animate"
+                      className="slide-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev2.jpg" alt="" />
+                        <img src={require("../assets/images/rev2.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -416,7 +419,7 @@ const Team = () => {
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev3.jpg" alt="" />
+                        <img src={require("../assets/images/rev3.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -443,7 +446,7 @@ const Team = () => {
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev1.jpg" alt="" />
+                        <img src={require("../assets/images/rev1.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -466,11 +469,11 @@ const Team = () => {
                   </div>
                   <div className="swiper-slide">
                     <div
-                      className="slide-item element-anim-1 scroll-animate"
+                      className="slide-item"
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev2.jpg" alt="" />
+                        <img src={require("../assets/images/rev2.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -497,7 +500,7 @@ const Team = () => {
                       data-animate="active"
                     >
                       <div className="image">
-                        <img src="images/rev3.jpg" alt="" />
+                        <img src={require("../assets/images/rev3.jpg")}  alt="" />
                       </div>
                       <div className="desc">
                         <div className="stars">
@@ -530,61 +533,61 @@ const Team = () => {
             <div className="kf-brands-items row">
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand1.png" alt="" />
+                    <img src={require("../assets/images/brand1.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand2.png" alt="" />
+                    <img src={require("../assets/images/brand2.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand3.png" alt="" />
+                    <img src={require("../assets/images/brand3.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand4.png" alt="" />
+                    <img src={require("../assets/images/brand4.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand5.png" alt="" />
+                    <img src={require("../assets/images/brand5.png")}  alt="" />
                   </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
                 <div
-                  className="kf-brands-item element-anim-1 scroll-animate"
+                  className="kf-brands-item"
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/brand6.png" alt="" />
+                    <img src={require("../assets/images/brand6.png")}  alt="" />
                   </div>
                 </div>
               </div>

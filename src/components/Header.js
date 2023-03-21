@@ -56,7 +56,7 @@ const Header = () => {
               <div className="kf-main-menu">
                 <ul>
                   <li>
-                    <a href="/index">
+                    <a href="/">
                       Home
                       <i className="las la-angle-down" />
                     </a>
@@ -88,7 +88,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       Pages
                       <i className="las la-angle-down" />
                     </a>

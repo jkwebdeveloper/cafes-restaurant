@@ -1,4 +1,12 @@
 import React from 'react'
+import menu_rest_inner_bg from '../assets/images/menu_rest_inner_bg.jpg'
+import menu_r_l1 from '../assets/images/menu_r_l1.jpg'
+import menu_r_l2 from '../assets/images/menu_r_l2.jpg'
+import cta_bg3 from '../assets/images/cta_bg3.jpg'
+import menu_r_l3 from '../assets/images/menu_r_l3.jpg'
+import menu_r_l4 from '../assets/images/menu_r_l4.jpg'
+
+
 
 const MenuRestaurant = () => {
   return (
@@ -8,11 +16,11 @@ const MenuRestaurant = () => {
         <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: 'url(images/menu_rest_inner_bg.jpg)' }}
+            style={{ backgroundImage: `url(${menu_rest_inner_bg})` }}
           />
           <div className="container">
             <h1
-              className="kf-h-title text-anim-1 scroll-animate"
+              className="kf-h-title"
               data-splitting="chars"
               data-animate="active"
             >
@@ -25,13 +33,13 @@ const MenuRestaurant = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Choose Best of
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Lunch Menu
@@ -41,12 +49,12 @@ const MenuRestaurant = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div className="kf-menu-items-2">
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r1.jpg" className="has-popup-image">
-                        <img src="images/menu_r1.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r1.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -58,12 +66,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r2.jpg" className="has-popup-image">
-                        <img src="images/menu_r2.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r2.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -75,12 +83,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r3.jpg" className="has-popup-image">
-                        <img src="images/menu_r3.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r3.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -92,12 +100,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r4.jpg" className="has-popup-image">
-                        <img src="images/menu_r4.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r4.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -110,25 +118,25 @@ const MenuRestaurant = () => {
                   </div>
                 </div>
                 <div
-                  className="kf-menu-image-2 left element-anim-1 scroll-animate"
+                  className="kf-menu-image-2 left"
                   data-animate="active"
-                  style={{ backgroundImage: 'url(images/menu_r_l1.jpg)' }}
+                  style={{ backgroundImage: `url(${menu_r_l1})` }}
                 />
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div
-                  className="kf-menu-image-2 right element-anim-1 scroll-animate"
+                  className="kf-menu-image-2 right"
                   data-animate="active"
-                  style={{ backgroundImage: 'url(images/menu_r_l2.jpg)' }}
+                  style={{ backgroundImage: `url(${menu_r_l2})` }}
                 />
                 <div className="kf-menu-items-2">
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r5.jpg" className="has-popup-image">
-                        <img src="images/menu_r5.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r5.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -140,12 +148,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r6.jpg" className="has-popup-image">
-                        <img src="images/menu_r6.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r6.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -157,12 +165,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r7.jpg" className="has-popup-image">
-                        <img src="images/menu_r7.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r7.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -174,12 +182,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r8.jpg" className="has-popup-image">
-                        <img src="images/menu_r8.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r8.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -198,20 +206,20 @@ const MenuRestaurant = () => {
         {/* Section CTA */}
         <section
           className="section kf-cta kf-parallax"
-          style={{ backgroundImage: 'url(images/cta_bg3.jpg)' }}
+          style={{ backgroundImage: `url(${cta_bg3})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <div className="kf-titles">
                   <div
-                    className="kf-subtitle element-anim-1 scroll-animate"
+                    className="kf-subtitle"
                     data-animate="active"
                   >
                     Need a Table On Coffee House
                   </div>
                   <h3
-                    className="kf-title element-anim-1 scroll-animate"
+                    className="kf-title"
                     data-animate="active"
                   >
                     Booking Table For Your &amp; Family Members
@@ -221,7 +229,7 @@ const MenuRestaurant = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
                 <a
                   href="reservation.html"
-                  className="kf-btn element-anim-1 scroll-animate"
+                  className="kf-btn"
                   data-animate="active"
                 >
                   <span>booking table</span>
@@ -236,13 +244,13 @@ const MenuRestaurant = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div
-                className="kf-subtitle element-anim-1 scroll-animate"
+                className="kf-subtitle"
                 data-animate="active"
               >
                 Choose Best of
               </div>
               <h3
-                className="kf-title element-anim-1 scroll-animate"
+                className="kf-title"
                 data-animate="active"
               >
                 Kaffen Dinner Menu
@@ -252,12 +260,12 @@ const MenuRestaurant = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div className="kf-menu-items-2">
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r1.jpg" className="has-popup-image">
-                        <img src="images/menu_r1.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r1.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -269,12 +277,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r2.jpg" className="has-popup-image">
-                        <img src="images/menu_r2.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r2.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -286,12 +294,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r3.jpg" className="has-popup-image">
-                        <img src="images/menu_r3.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r3.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -303,12 +311,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r4.jpg" className="has-popup-image">
-                        <img src="images/menu_r4.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r4.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -321,25 +329,25 @@ const MenuRestaurant = () => {
                   </div>
                 </div>
                 <div
-                  className="kf-menu-image-2 left element-anim-1 scroll-animate"
+                  className="kf-menu-image-2 left"
                   data-animate="active"
-                  style={{ backgroundImage: 'url(images/menu_r_l3.jpg)' }}
+                  style={{ backgroundImage: `url(${menu_r_l3})` }}
                 />
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div
-                  className="kf-menu-image-2 right element-anim-1 scroll-animate"
+                  className="kf-menu-image-2 right"
                   data-animate="active"
-                  style={{ backgroundImage: 'url(images/menu_r_l4.jpg)' }}
+                  style={{ backgroundImage: `url(${menu_r_l4})` }}
                 />
                 <div className="kf-menu-items-2">
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r5.jpg" className="has-popup-image">
-                        <img src="images/menu_r5.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r5.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -351,12 +359,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r6.jpg" className="has-popup-image">
-                        <img src="images/menu_r6.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r6.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -368,12 +376,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r7.jpg" className="has-popup-image">
-                        <img src="images/menu_r7.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r7.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -385,12 +393,12 @@ const MenuRestaurant = () => {
                     </div>
                   </div>
                   <div
-                    className="kf-menu-item-2 element-anim-1 scroll-animate"
+                    className="kf-menu-item-2"
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
                       <a href="images/menu_r8.jpg" className="has-popup-image">
-                        <img src="images/menu_r8.jpg" alt="" />
+                        <img src={require("../assets/images/menu_r8.jpg")} alt="" />
                       </a>
                     </div>
                     <div className="desc">
@@ -408,7 +416,7 @@ const MenuRestaurant = () => {
         </section>
         {/* Section Insta Carousel */}
         <div
-          className="section kf-insta-carousel element-anim-1 scroll-animate"
+          className="section kf-insta-carousel"
           data-animate="active"
         >
           <div className="container">
@@ -418,7 +426,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal1.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -428,7 +436,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal2.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal2.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -438,7 +446,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal3.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -448,7 +456,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal4.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal4.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -458,7 +466,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal5.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal5.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -468,7 +476,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal6.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal6.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -478,7 +486,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal1.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -488,7 +496,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal2.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal2.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -498,7 +506,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal3.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -508,7 +516,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal4.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal4.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -518,7 +526,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal5.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal5.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>
@@ -528,7 +536,7 @@ const MenuRestaurant = () => {
                   <div className="slide-item">
                     <div className="image kf-image-hover">
                       <a href="instagram.com" target="blank">
-                        <img src="images/ins_gal6.jpg" alt="" />
+                        <img src={require("../assets/images/ins_gal6.jpg")} alt="" />
                         <i className="fab fa-instagram" />
                       </a>
                     </div>

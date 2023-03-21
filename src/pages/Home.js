@@ -34,11 +34,11 @@ const Home = () => {
                         Coffee House
                       </h2>
                       <div className="kf-bts">
-                        <a href="menu-restaurant.html" className="kf-btn">
+                        <a href="/menu-restaurant" className="kf-btn">
                           <span>explore more</span>
                           <i className="fas fa-chevron-right" />
                         </a>
-                        <a href="reservation.html" className="kf-btn dark-btn">
+                        <a href="/reservation" className="kf-btn dark-btn">
                           <span>get delivery</span>
                           <i className="fas fa-chevron-right" />
                         </a>
@@ -162,7 +162,7 @@ const Home = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div className="kf-services-item " data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="menu-restaurant.html">
+                    <a href="/menu-restaurant">
                       <img
                         src={require('../assets/images/service1.jpg')}
                         alt=""
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div className="kf-services-item " data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="menu-coffee.html">
+                    <a href="/menu-coffee">
                       <img
                         src={require('../assets/images/service2.jpg')}
                         alt=""
@@ -198,7 +198,7 @@ const Home = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div className="kf-services-item " data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="services.html">
+                    <a href="/services">
                       <img
                         src={require('../assets/images/service3.jpg')}
                         alt=""
@@ -238,7 +238,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                   <div className="kf-menu-item " data-animate="active">
                     <div className="image kf-image-hover">
-                      <a href="images/menu1.jpg" className="has-popup-image">
+                      <a href="#" className="has-popup-image">
                         <img
                           src={require('../assets/images/menu1.jpg')}
                           alt=""
@@ -257,7 +257,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                   <div className="kf-menu-item " data-animate="active">
                     <div className="image kf-image-hover">
-                      <a href="images/menu2.jpg" className="has-popup-image">
+                      <a href="#" className="has-popup-image">
                         <img
                           src={require('../assets/images/menu2.jpg')}
                           alt=""
@@ -276,7 +276,7 @@ const Home = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                   <div className="kf-menu-item " data-animate="active">
                     <div className="image kf-image-hover">
-                      <a href="images/menu3.jpg" className="has-popup-image">
+                      <a href="#" className="has-popup-image">
                         <img
                           src={require('../assets/images/menu3.jpg')}
                           alt=""
@@ -433,7 +433,7 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-                <a href="about.html" className="kf-btn " data-animate="active">
+                <a href="/about" className="kf-btn " data-animate="active">
                   <span>explore more</span>
                   <i className="fas fa-chevron-right" />
                 </a>
