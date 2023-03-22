@@ -8,7 +8,7 @@ import cta_bg from '../assets/images/cta_bg.jpg'
 import HeroSection from '../components/Restaurant/HeroSection'
 import FoodMenu from '../components/Restaurant/FoodMenu'
 import TeamMember from '../components/About/TeamMember'
-import Reservation from '../components/Restaurant/Reservation'
+import MakeYourTable from '../components/Restaurant/MakeYourTable'
 import AboutKaffen from '../components/Restaurant/AboutKaffen'
 import FeedBack from '../components/Home/FeedBack'
 import Video from '../components/Restaurant/Video'
@@ -16,6 +16,7 @@ import Numbers from '../components/About/Numbers'
 import TableBooking from '../components/Home/TableBooking'
 import Blog from '../components/Home/Blog'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
+import Brands from '../components/About/Brands'
 
 
 
@@ -135,7 +136,7 @@ const Restaurant = () => {
 
         {/* Section Reservation */}
         <section className="section kf-reservation kf-section-no-margin">
-          <Reservation/>
+          <MakeYourTable/>
         </section>
 
         {/* Section About-2 */}
@@ -187,70 +188,7 @@ const Restaurant = () => {
 
         {/* Section Brands */}
         <div className="section kf-brands">
-          <div className="container">
-            <div className="kf-brands-items row">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand1.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand2.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand3.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand4.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand5.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand6.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Brands/>
         </div>
       </div>
     </div>

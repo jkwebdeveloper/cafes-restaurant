@@ -1,6 +1,8 @@
 import React from 'react'
 import gallery_inner_bg from '../assets/images/gallery_inner_bg.jpg'
 import cta_bg3 from '../assets/images/cta_bg3.jpg'
+import TableBooking from '../components/Home/TableBooking'
+import Brands from '../components/About/Brands'
 
 const Gallery = () => {
   return (
@@ -251,103 +253,11 @@ const Gallery = () => {
           className="section kf-cta kf-parallax"
           style={{ backgroundImage: `url(${cta_bg3})` }}
         >
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-                <div className="kf-titles">
-                  <div
-                    className="kf-subtitle"
-                    data-animate="active"
-                  >
-                    Need a Table On Coffee House
-                  </div>
-                  <h3
-                    className="kf-title"
-                    data-animate="active"
-                  >
-                    Booking Table For Your &amp; Family Members
-                  </h3>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-                <a
-                  href="reservation.html"
-                  className="kf-btn"
-                  data-animate="active"
-                >
-                  <span>booking table</span>
-                  <i className="fas fa-chevron-right" />
-                </a>
-              </div>
-            </div>
-          </div>
+          <TableBooking/>
         </section>
         {/* Section Brands */}
         <div className="section kf-brands">
-          <div className="container">
-            <div className="kf-brands-items row">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand1.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand2.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand3.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand4.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand5.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand6.png")}  alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Brands/>
         </div>
       </div>
     </div>

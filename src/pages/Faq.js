@@ -1,6 +1,8 @@
 import React from 'react'
 import faq_inner_bg from '../assets/images/faq_inner_bg.jpg'
 import cta_bg2 from '../assets/images/cta_bg2.jpg'
+import Brands from '../components/About/Brands'
+import TableBooking from '../components/Home/TableBooking'
 
 const Faq = () => {
   return (
@@ -268,103 +270,11 @@ const Faq = () => {
           className="section kf-cta kf-parallax"
           style={{ backgroundImage: `url(${cta_bg2})` }}
         >
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-                <div className="kf-titles">
-                  <div
-                    className="kf-subtitle"
-                    data-animate="active"
-                  >
-                    Get In Touch
-                  </div>
-                  <h3
-                    className="kf-title"
-                    data-animate="active"
-                  >
-                    Have Any Questions
-                  </h3>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-                <a
-                  href="/contact"
-                  className="kf-btn"
-                  data-animate="active"
-                >
-                  <span>Submit request</span>
-                  <i className="fas fa-chevron-right" />
-                </a>
-              </div>
-            </div>
-          </div>
+          <TableBooking/>
         </section>
         {/* Section Brands */}
         <div className="section kf-brands">
-          <div className="container">
-            <div className="kf-brands-items row">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand1.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand2.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand3.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand4.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand5.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand6.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <Brands/>
         </div>
       </div>
     </div>

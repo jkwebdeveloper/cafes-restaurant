@@ -5,6 +5,8 @@ import menu_r_l2 from '../assets/images/menu_r_l2.jpg'
 import cta_bg3 from '../assets/images/cta_bg3.jpg'
 import menu_r_l3 from '../assets/images/menu_r_l3.jpg'
 import menu_r_l4 from '../assets/images/menu_r_l4.jpg'
+import TableBooking from '../components/Home/TableBooking'
+import ImagesSlider from '../components/Restaurant/ImagesSlider'
 
 
 
@@ -208,36 +210,7 @@ const MenuRestaurant = () => {
           className="section kf-cta kf-parallax"
           style={{ backgroundImage: `url(${cta_bg3})` }}
         >
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-                <div className="kf-titles">
-                  <div
-                    className="kf-subtitle"
-                    data-animate="active"
-                  >
-                    Need a Table On Coffee House
-                  </div>
-                  <h3
-                    className="kf-title"
-                    data-animate="active"
-                  >
-                    Booking Table For Your &amp; Family Members
-                  </h3>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-                <a
-                  href="reservation.html"
-                  className="kf-btn"
-                  data-animate="active"
-                >
-                  <span>booking table</span>
-                  <i className="fas fa-chevron-right" />
-                </a>
-              </div>
-            </div>
-          </div>
+          <TableBooking/>
         </section>
         {/* Section Menu-2 */}
         <section className="section kf-menu">
@@ -419,132 +392,9 @@ const MenuRestaurant = () => {
           className="section kf-insta-carousel"
           data-animate="active"
         >
-          <div className="container">
-            <div className="swiper-container">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal2.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal4.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal5.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal6.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal2.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal4.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal5.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="slide-item">
-                    <div className="image kf-image-hover">
-                      <a href="instagram.com" target="blank">
-                        <img src={require("../assets/images/ins_gal6.jpg")} alt="" />
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
+            <ImagesSlider/>
+          
         </div>
       </div>
     </div>

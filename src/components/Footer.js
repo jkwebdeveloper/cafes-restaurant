@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               {/* logo */}
               <div className="kf-logo">
-                <a href="index.html">
+                <a href="/">
                   <img src={require('../assets/images/logo.png')} alt="" />
                 </a>
               </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="images/grid_gal1.jpg"
+                      href={require("../assets/images/grid_gal1.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal1.jpg")} alt="" />
@@ -71,7 +71,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="images/grid_gal2.jpg"
+                      href={require("../assets/images/grid_gal2.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal2.jpg")} alt="" />
@@ -79,7 +79,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="images/grid_gal3.jpg"
+                      href={require("../assets/images/grid_gal3.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal3.jpg")} alt="" />
@@ -87,7 +87,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="images/grid_gal4.jpg"
+                      href={require("../assets/images/grid_gal4.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal4.jpg")} alt="" />
@@ -95,7 +95,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="images/grid_gal5.jpg"
+                      href={require("../assets/images/grid_gal5.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal5.jpg")} alt="" />
@@ -103,7 +103,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="images/grid_gal6.jpg"
+                      href={require("../assets/images/grid_gal1.jpg")}
                       className="kf-image-hover has-popup-image"
                     >
                       <img src={require("../assets/images/grid_gal1.jpg")} alt="" />

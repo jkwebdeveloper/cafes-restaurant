@@ -15,7 +15,7 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="blog-single.html">
+              <a href="/">
                 <img
                   src={require('../../assets/images/latest_blog1.jpg')}
                   alt=""
@@ -40,7 +40,7 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="blog-single.html">
+              <a href="/">
                 <img
                   src={require('../../assets/images/latest_blog2.jpg')}
                   alt=""
@@ -65,7 +65,7 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="blog-single.html">
+              <a href="/">
                 <img
                   src={require('../../assets/images/latest_blog3.jpg')}
                   alt=""
@@ -89,7 +89,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="align-center">
-        <a href="blog-grid.html" className="kf-btn " data-animate="active">
+        <a href="/" className="kf-btn " data-animate="active">
           <span>view all</span>
           <i className="fas fa-chevron-right" />
         </a>

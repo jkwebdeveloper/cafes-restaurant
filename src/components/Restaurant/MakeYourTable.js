@@ -2,7 +2,7 @@ import React from 'react'
 import reservation5 from '../../assets/images/reservation5.jpg'
 import reservation6 from '../../assets/images/reservation6.jpg'
 
-const Reservation = () => {
+const MakeYourTable = () => {
   return (
     <div className="container">
       <div className="kf-reservation-form" data-animate="active">
@@ -82,4 +82,4 @@ const Reservation = () => {
   )
 }
 
-export default Reservation
+export default MakeYourTable

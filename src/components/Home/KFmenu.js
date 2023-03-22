@@ -62,7 +62,7 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="images/menu4.jpg" className="has-popup-image">
+                <a href="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu4.jpg')} alt="" />
                 </a>
               </div>
@@ -76,7 +76,7 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="images/menu5.jpg" className="has-popup-image">
+                <a href="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu5.jpg')} alt="" />
                 </a>
               </div>
@@ -90,7 +90,7 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="images/menu6.jpg" className="has-popup-image">
+                <a href="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu6.jpg')} alt="" />
                 </a>
               </div>

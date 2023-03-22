@@ -1,24 +1,40 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Faq from './pages/Faq'
-import Gallery from './pages/Gallery'
-import History from './pages/History'
-import Home from './pages/Home'
-import MenuCoffee from './pages/MenuCoffee'
-import MenuRestaurant from './pages/MenuRestaurant'
-import Reservation from './pages/Reservation'
-import Restaurant from './pages/Restaurant'
-import Services from './pages/Services'
-import Team from './pages/Team'
+
+const Home = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Faq = lazy(() => import('./pages/Faq'))
+const Gallery = lazy(() => import('./pages/Gallery'))
+const History = lazy(() => import('./pages/History'))
+const MenuCoffee = lazy(() => import('./pages/MenuCoffee'))
+const MenuRestaurant = lazy(() => import('./pages/MenuRestaurant'))
+const Reservation = lazy(() => import('./pages/Reservation'))
+const Restaurant = lazy(() => import('./pages/Restaurant'))
+const Services = lazy(() => import('./pages/Services'))
+const Team = lazy(() => import('./pages/Team'))
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Suspense
+        fallback={
+          <div className="preloader">
+            <div className="centrize full-width">
+              <div className="vertical-center">
+                <div className="spinner-logo">
+                  <img src={require('./assets/images/logo.png')} alt="" />
+                  <div className="spinner-dot">
+                    <div className="spinner-line" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,8 +51,8 @@ function App() {
           <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-    </>
+      </Suspense>
+    </BrowserRouter>
   )
 }
 

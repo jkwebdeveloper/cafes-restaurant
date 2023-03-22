@@ -149,54 +149,66 @@ const Home = () => {
               </div>
             </div>
           </SwiperSlide>
-          <div className="swiper-button-prev" ref={prevRef} />
-          <div className="swiper-button-next" ref={nextRef} />
+
+          <div
+            className="swiper-button-prev"
+            tabIndex={0}
+            role="button"
+            aria-label="Previous slide"
+            aria-controls="swiper-wrapper-a5e34f5caa90abe6"
+            ref={nextRef}
+          />
+          <div
+            className="swiper-button-next"
+            tabIndex={0}
+            role="button"
+            aria-label="Next slide"
+            aria-controls="swiper-wrapper-a5e34f5caa90abe6"
+            ref={nextRef}
+          />
+          {/* <div className="swiper-button-next" /> */}
         </Swiper>
         {/* Section About */}
         <section className="section kf-about section-bg">
-          <Herosection/>
+          <Herosection />
         </section>
         {/* Section Services */}
         <section className="section kf-services section-bg">
-          <ServiceSection/>
+          <ServiceSection />
         </section>
         {/* Section Menu */}
         <section
           className="section kf-menu kf-parallax"
           style={{ backgroundImage: `url(${category_bg})` }}
         >
-          <KFmenu/>
+          <KFmenu />
         </section>
         {/* Section Choose */}
         <section className="section kf-choose section-bg">
-          <ChooseUs/>
+          <ChooseUs />
         </section>
         {/* Section Grid Carousel */}
         <section className="section kf-grid-carousel">
-          <KFGridSlider/>
+          <KFGridSlider />
         </section>
         {/* Section Testimonials Carousel */}
         <section
           className="section kf-testimonials kf-testimonials-2 section-bg"
           style={{ backgroundImage: `url(${testimonials_bg2})` }}
         >
-          <FeedBack/>
+          <FeedBack />
         </section>
         {/* Section Numbers */}
         <section className="section kf-numbers">
-          <ClientNumbers/>
+          <ClientNumbers />
         </section>
         {/* Section Latest Blog */}
         <section className="section kf-latest-blog section-bg">
-          <Blog/>
+          <Blog />
         </section>
         {/* Section CTA */}
-        <section
-          className="section kf-cta kf-parallax"
-          style={{ backgroundImage: `url(${cta_bg})` }}
-        >
-          <TableBooking/>
-        </section>
+
+        <TableBooking />
       </div>
     </>
   )
