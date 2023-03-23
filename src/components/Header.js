@@ -1,9 +1,46 @@
-import React from 'react'
+// import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 
 const Header = () => {
+  const [stickyHeader, setStickyHeader] = useState('')
+  const [mobileViewHeader, setMobileViewHeader] = useState(false)
+
+  // for sticky header
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        setStickyHeader(true)
+      } else {
+        return setStickyHeader(false)
+      }
+    })
+
+    return () => {
+      window.removeEventListener('scroll', () => {})
+    }
+  }, [window.scrollY])
+
+  // for check inner width
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1024) {
+        setMobileViewHeader(false)
+      }
+    })
+
+    return () => {
+      window.removeEventListener('resize', () => {})
+    }
+  }, [window.innerWidth])
+
   return (
     <>
-      <header className="kf-header">
+      <header
+        className={`kf-header ${stickyHeader && 'fixed'} ${
+          mobileViewHeader && 'animated show opened'
+        } `}
+      >
         {/* topline */}
         <div className="kf-topline">
           <div className="row">
@@ -69,10 +106,10 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                    <li>
-                      <a href="/about">About</a>
-                    </li>
-                  
+                  <li>
+                    <a href="/about">About</a>
+                  </li>
+
                   <li>
                     <a href="/menu-coffee">
                       Menu
@@ -121,9 +158,21 @@ const Header = () => {
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 align-right">
               {/* menu btn */}
-              <a href="#" className="kf-menu-btn">
-                <span />
-              </a>
+              {mobileViewHeader ? (
+                <XMarkIcon
+                  color="white"
+                  height={30}
+                  onClick={() => setMobileViewHeader(false)}
+                />
+              ) : (
+                <a
+                  href="#"
+                  className="kf-menu-btn"
+                  onClick={() => setMobileViewHeader(true)}
+                >
+                  <span />
+                </a>
+              )}
               {/* btn */}
               <a href="/reservation" className="kf-btn h-btn">
                 <span>Book a table</span>
@@ -220,16 +269,16 @@ const Header = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* social */}
                 <div className="kf-h-social">
-                  <a href="facebook.com" target="blank">
+                  <a href="#" target="blank">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="twitter.com" target="blank">
+                  <a href="#" target="blank">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="instagram.com" target="blank">
+                  <a href="#" target="blank">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="youtube.com" target="blank">
+                  <a href="#" target="blank">
                     <i className="fab fa-youtube" />
                   </a>
                 </div>

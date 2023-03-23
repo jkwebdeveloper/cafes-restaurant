@@ -3,10 +3,10 @@ import cta_bg from '../../assets/images/cta_bg.jpg'
 
 const TableBooking = () => {
   return (
-    <section
-      className="section kf-cta kf-parallax"
-      style={{ backgroundImage: `url(${cta_bg})` }}
-    >
+    // <section
+    //   className="section kf-cta kf-parallax"
+    //   style={{ backgroundImage: `url(${cta_bg})` }}
+    // >
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
@@ -27,7 +27,7 @@ const TableBooking = () => {
           </div>
         </div>
       </div>
-    </section>
+    // </section>
   )
 }
 

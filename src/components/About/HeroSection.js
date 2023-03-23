@@ -63,7 +63,7 @@ const HeroSection = () => {
               </li>
             </ul>
           </div>
-          <a href="menu-coffee.html" className="kf-btn" data-animate="active">
+          <a href="/menu-coffee" className="kf-btn" data-animate="active">
             <span>our menu</span>
             <i className="fas fa-chevron-right" />
           </a>

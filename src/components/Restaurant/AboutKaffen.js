@@ -40,7 +40,7 @@ const AboutKaffen = () => {
               </li>
             </ul>
           </div>
-          <a href="about.html" className="kf-btn" data-animate="active">
+          <a href="/about" className="kf-btn" data-animate="active">
             <span>explore more us</span>
             <i className="fas fa-chevron-right" />
           </a>

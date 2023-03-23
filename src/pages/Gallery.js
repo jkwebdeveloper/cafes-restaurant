@@ -68,7 +68,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal1.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal1.jpg")}  alt="" />
                     </a>
                   </div>
@@ -88,7 +88,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal2.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal2.jpg")}  alt="" />
                     </a>
                   </div>
@@ -108,7 +108,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal3.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal3.jpg")}  alt="" />
                     </a>
                   </div>
@@ -128,7 +128,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal4.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal4.jpg")}  alt="" />
                     </a>
                   </div>
@@ -148,7 +148,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal5.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal5.jpg")}  alt="" />
                     </a>
                   </div>
@@ -168,7 +168,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/ins_gal6.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/ins_gal6.jpg")}  alt="" />
                     </a>
                   </div>
@@ -189,7 +189,7 @@ const Gallery = () => {
                 >
                   <div className="image kf-image-hover">
                     <a
-                      href="images/grid_gal1.jpg"
+                      href="#"
                       className="has-popup-gallery"
                     >
                       <img src={require("../assets/images/grid_gal1.jpg")}  alt="" />
@@ -211,7 +211,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/menu_r4.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/menu_r4.jpg")}  alt="" />
                     </a>
                   </div>
@@ -231,7 +231,7 @@ const Gallery = () => {
                   data-animate="active"
                 >
                   <div className="image kf-image-hover">
-                    <a href="images/menu_r6.jpg" className="has-popup-gallery">
+                    <a href="#" className="has-popup-gallery">
                       <img src={require("../assets/images/menu_r6.jpg")}  alt="" />
                     </a>
                   </div>

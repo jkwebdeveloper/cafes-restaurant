@@ -168,47 +168,47 @@
   }
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  left: 0;
-  margin-top: -55px;
-  width: 47px;
-  height: 111px;
-  border: none;
-  outline: none;
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    background: url(../../images/nav.png) no-repeat;
-    background-size: contain;
-    transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
-    -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
-  }
-  &:after {
-    background: url(../../images/nav2.png) no-repeat;
-    background-size: contain;
-    opacity: 0;
-  }
-  &:hover {
-    &:before {
-      opacity: 0;
-    }
-    &:after {
-      opacity: 1;
-    }
-  }
-}
-.swiper-button-next {
-  left: auto;
-  right: 0;
-  transform: scale(-1);
-}
+// .button-prev,
+// .button-next {
+//   left: 0;
+//   margin-top: -55px;
+//   width: 47px;
+//   height: 111px;
+//   border: none;
+//   outline: none;
+//   &:before,
+//   &:after {
+//     content: "";
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     border: none;
+//     background: url(../../images/nav.png) no-repeat;
+//     background-size: contain;
+//     transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+//     -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+//   }
+//   &:after {
+//     background: url(../../images/nav2.png) no-repeat;
+//     background-size: contain;
+//     opacity: 0;
+//   }
+//   &:hover {
+//     &:before {
+//       opacity: 0;
+//     }
+//     &:after {
+//       opacity: 1;
+//     }
+//   }
+// }
+// .button-next {
+//   left: auto;
+//   right: 0;
+//   transform: scale(-1);
+// }
 
 .kf-started-item {
   position: relative;
@@ -321,10 +321,10 @@
       }
     }
   }
-  .section.kf-started-slider .swiper-button-prev,
-  .section.kf-started-slider .swiper-button-next {
-    display: none;
-  }
+  // .section.kf-started-slider .swiper-button-prev,
+  // .section.kf-started-slider .swiper-button-next {
+  //   display: none;
+  // }
   .section.kf-started-slider .kf-bts .kf-btn {
     margin-bottom: 10px;
   }

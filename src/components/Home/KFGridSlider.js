@@ -1,8 +1,7 @@
 import React from 'react'
 import { Navigation } from 'swiper'
-
+import '../Home/Gridslider.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -10,11 +9,9 @@ import 'swiper/css/scrollbar'
 
 const KFGridSlider = () => {
   return (
-    <section className="section kf-grid-carousel">
+    <section className="section kf-grid-carousel col-sm-12" style={{paddingTop:"0px", paddingBottom:"0px"}}>
       <div className="container">
         <Swiper
-          // className="swiper-wrapper"
-          // id="swiper-wrapper-a37e96bac1c4f4107"
           aria-live="polite"
           style={{
             transform: 'translate3d(0px, 0px, 0px)',
@@ -24,6 +21,28 @@ const KFGridSlider = () => {
           modules={[Navigation, ]}
           spaceBetween={30}
           slidesPerView={3}
+          breakpoints={{
+            320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          425: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,

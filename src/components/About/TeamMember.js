@@ -25,16 +25,16 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-youtube" />
                 </a>
               </div>
@@ -54,16 +54,16 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-youtube" />
                 </a>
               </div>
@@ -83,16 +83,16 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-youtube" />
                 </a>
               </div>
@@ -112,16 +112,16 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-linkedin" />
                 </a>
-                <a href="/">
+                <a href="#">
                   <i className="fab fa-youtube" />
                 </a>
               </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+// import React from 'react'
+import React, { useRef, useState } from 'react'
 import started_img7 from '../assets/images/started_img7.jpg'
 import started_img5 from '../assets/images/started_img5.jpg'
 import started_img6 from '../assets/images/started_img6.jpg'
@@ -17,126 +18,162 @@ import TableBooking from '../components/Home/TableBooking'
 import Blog from '../components/Home/Blog'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
 import Brands from '../components/About/Brands'
-
-
+import { Autoplay, Navigation } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 
 
 const Restaurant = () => {
+  const [index, setIndex] = useState(null)
+
+  const prevRef = useRef(null)
+  const nextRef = useRef(null)
   return (
     <div>
       <div className="wrapper">
-        {/* Section Started Slider */}
-        <section className="section kf-started-slider">
-          <div className="swiper-container">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="kf-started-item">
-                  <div
-                    className="slide js-parallax"
-                    style={{ backgroundImage: `url(${started_img7})` }}
-                  />
-                  <div className="container">
-                    <div className="description">
-                      <div className="subtitles">Welcome to the Kaffen</div>
-                      <h2 className="name text-anim-1" data-splitting="chars">
-                        Reserve Your <br />
-                        Table Today
-                      </h2>
-                      <div className="kf-bts">
-                        <a href="menu-restaurant.html" className="kf-btn">
-                          <span>explore more</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                        <a href="reservation.html" className="kf-btn dark-btn">
-                          <span>get delivery</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="kf-started-item">
-                  <div
-                    className="slide js-parallax"
-                    style={{ backgroundImage: `url(${started_img5})` }}
-                  />
-                  <div className="container">
-                    <div className="description">
-                      <div className="subtitles">Welcome to the Kaffen</div>
-                      <h2 className="name text-anim-1" data-splitting="chars">
-                        Explore The <br />
-                        Lobsters
-                      </h2>
-                      <div className="kf-bts">
-                        <a href="menu-restaurant.html" className="kf-btn">
-                          <span>explore more</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                        <a href="reservation.html" className="kf-btn dark-btn">
-                          <span>get delivery</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="kf-started-item">
-                  <div
-                    className="slide js-parallax"
-                    style={{ backgroundImage: `url(${started_img6})` }}
-                  />
-                  <div className="container">
-                    <div className="description">
-                      <div className="subtitles">Welcome to the Kaffen</div>
-                      <h2 className="name text-anim-1" data-splitting="chars">
-                        Premium <br />
-                        Meat Kaffen
-                      </h2>
-                      <div className="kf-bts">
-                        <a href="menu-restaurant.html" className="kf-btn">
-                          <span>explore more</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                        <a href="reservation.html" className="kf-btn dark-btn">
-                          <span>get delivery</span>
-                          <i className="fas fa-chevron-right" />
-                        </a>
-                      </div>
-                    </div>
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          spaceBetween={0}
+          slidesPerView={1}
+          navigation={{
+            prevEl: prevRef?.current,
+            nextEl: nextRef?.current,
+          }}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          speed={1000}
+          onSlideChange={(e) => {
+            setIndex(e.realIndex)
+          }}
+          direction={'horizontal'}
+          onSwiper={(swiper) => {
+            setTimeout(() => {
+              swiper.params.navigation.prevEl = prevRef.current
+              swiper.params.navigation.nextEl = nextRef.current
+              swiper.navigation.destroy()
+              swiper.navigation.init()
+              swiper.navigation.update()
+            })
+          }}
+        >
+          <SwiperSlide style={{ minWidth: '100%' }}>
+            <div className="kf-started-item">
+              <div
+                className="slide js-parallax"
+                style={{ backgroundImage: `url(${started_img7})` }}
+              />
+              <div className="container">
+                <div className="description">
+                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <h2 className="name text-anim-1" data-splitting="chars">
+                    Reserve Your <br />
+                    Table Today
+                  </h2>
+                  <div className="kf-bts">
+                    <a href="menu-restaurant" className="kf-btn">
+                      <span>explore more</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
+                    <a href="/reservation" className="kf-btn dark-btn">
+                      <span>get delivery</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="swiper-button-prev" />
-            <div className="swiper-button-next" />
-          </div>
-        </section>
+          </SwiperSlide>
+          <SwiperSlide style={{ minWidth: '100%' }}>
+            <div className="kf-started-item">
+              <div
+                className="slide js-parallax"
+                style={{ backgroundImage: `url(${started_img5})` }}
+              />
+              <div className="container">
+                <div className="description">
+                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <h2 className="name text-anim-1" data-splitting="chars">
+                    Explore The <br />
+                    Lobsters
+                  </h2>
+                  <div className="kf-bts">
+                    <a href="/menu-restaurant" className="kf-btn">
+                      <span>explore more</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
+                    <a href="/reservation" className="kf-btn dark-btn">
+                      <span>get delivery</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide style={{ minWidth: '100%' }}>
+            <div className="kf-started-item">
+              <div
+                className="slide js-parallax"
+                style={{ backgroundImage: `url(${started_img6})` }}
+              />
+              <div className="container">
+                <div className="description">
+                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <h2 className="name text-anim-1" data-splitting="chars">
+                    Premium <br />
+                    Meat Kaffen
+                  </h2>
+                  <div className="kf-bts">
+                    <a href="/menu-restaurant" className="kf-btn">
+                      <span>explore more</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
+                    <a href="/reservation" className="kf-btn dark-btn">
+                      <span>get delivery</span>
+                      <i className="fas fa-chevron-right" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <div
+            ref={prevRef}
+            className="swiper-button-prev"
+            style={{ width: '2.7rem', height: '6rem', left: 0 }}
+          />
+          <div
+            ref={nextRef}
+            className="swiper-button-next"
+            style={{ width: '2.7rem', height: '6rem', right: 0 }}
+          />
+        </Swiper>
 
         {/* Section Category */}
         <section
           className="section kf-category"
           style={{ backgroundImage: `url(${category_bg})` }}
         >
-          <HeroSection/>
+          <HeroSection />
         </section>
 
         {/* Section Menu */}
         <section className="section kf-menu-classic section-bg">
-          <FoodMenu/>
+          <FoodMenu />
         </section>
 
         {/* Section Team */}
         <section className="section kf-team kf-section-transparent">
-          <TeamMember/>
+          <TeamMember />
         </section>
 
         {/* Section Reservation */}
         <section className="section kf-reservation kf-section-no-margin">
-          <MakeYourTable/>
+          <MakeYourTable />
         </section>
 
         {/* Section About-2 */}
@@ -144,7 +181,7 @@ const Restaurant = () => {
           className="section kf-about-2"
           style={{ backgroundImage: `url(${category_bg})` }}
         >
-          <AboutKaffen/>
+          <AboutKaffen />
         </section>
 
         {/* Section Testimonials Carousel */}
@@ -152,17 +189,17 @@ const Restaurant = () => {
           className="section kf-testimonials kf-testimonials-2 section-bg"
           style={{ backgroundImage: `url(${testimonials_bg2})` }}
         >
-          <FeedBack/>
+          <FeedBack />
         </section>
 
         {/* Section Video */}
         <div className="section kf-video kf-video-full">
-          <Video/>
+          <Video />
         </div>
 
         {/* Section Numbers-2 */}
         <section className="section kf-numbers-2 section-bg">
-          <Numbers/>
+          <Numbers />
         </section>
 
         {/* Section CTA */}
@@ -170,25 +207,22 @@ const Restaurant = () => {
           className="section kf-cta kf-parallax"
           style={{ backgroundImage: `url(${cta_bg})` }}
         >
-          <TableBooking/>
+          <TableBooking />
         </section>
 
         {/* Section Latest Blog */}
         <section className="section kf-latest-blog section-bg">
-          <Blog/>
+          <Blog />
         </section>
 
         {/* Section Insta Carousel */}
-        <div
-          className="section kf-insta-carousel"
-          data-animate="active"
-        >
-          <ImagesSlider/>
+        <div className="section kf-insta-carousel" data-animate="active">
+          <ImagesSlider />
         </div>
 
         {/* Section Brands */}
         <div className="section kf-brands">
-          <Brands/>
+          <Brands />
         </div>
       </div>
     </div>

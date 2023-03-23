@@ -8,8 +8,11 @@ const HeroSection = () => {
           <div className="kf-category-items" data-animate="active">
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="menu-restaurant.html">
-                  <img src={require('../../assets/images/category1.jpg')} alt="" />
+                <a href="/menu-restaurant">
+                  <img
+                    src={require('../../assets/images/category1.jpg')}
+                    alt=""
+                  />
                 </a>
               </div>
               <div className="desc">
@@ -18,8 +21,11 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="menu-restaurant.html">
-                  <img src={require('../../assets/images/category2.jpg')} alt="" />
+                <a href="/menu-restaurant">
+                  <img
+                    src={require('../../assets/images/category2.jpg')}
+                    alt=""
+                  />
                 </a>
               </div>
               <div className="desc">
@@ -28,8 +34,11 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="menu-restaurant.html">
-                  <img src={require('../../assets/images/category3.jpg')} alt="" />
+                <a href="/menu-restaurant">
+                  <img
+                    src={require('../../assets/images/category3.jpg')}
+                    alt=""
+                  />
                 </a>
               </div>
               <div className="desc">
@@ -38,8 +47,11 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="menu-restaurant.html">
-                  <img src={require('../../assets/images/ins_gal1.jpg')} alt="" />
+                <a href="/menu-restaurant">
+                  <img
+                    src={require('../../assets/images/ins_gal1.jpg')}
+                    alt=""
+                  />
                 </a>
               </div>
               <div className="desc">
@@ -67,11 +79,7 @@ const HeroSection = () => {
               odit aut fugit sed quia con
             </p>
           </div>
-          <a
-            href="menu-restaurant.html"
-            className="kf-btn"
-            data-animate="active"
-          >
+          <a href="/menu-restaurant" className="kf-btn" data-animate="active">
             <span>explore more Category</span>
             <i className="fas fa-chevron-right" />
           </a>
