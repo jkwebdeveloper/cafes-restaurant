@@ -186,14 +186,14 @@ const Header = () => {
           <div className="kf-main-menu">
             <ul>
               <li className="has-children">
-                <a href="/index">Home</a>
+                <a href="/">Home</a>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="/index">Coffee House</a>
+                    <a href="/">Coffee House</a>
                   </li>
                   <li>
-                    <a href="/index-2">Restaurant</a>
+                    <a href="/restaurant">Restaurant</a>
                   </li>
                 </ul>
               </li>
@@ -214,7 +214,7 @@ const Header = () => {
               </li>
               <li className="has-children">
                 <a href="#">Pages</a>
-                <i className="las la-angle-down" />
+                <i className="las la-angle-down"/>
                 <ul>
                   <li>
                     <a href="/services">Service</a>
@@ -252,7 +252,7 @@ const Header = () => {
                 </ul>
               </li>
               <li>
-                <a href="/contacts">Contacts</a>
+                <a href="/contact">Contacts</a>
               </li>
             </ul>
           </div>
