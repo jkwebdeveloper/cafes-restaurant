@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Error404 from './pages/Error404'
 
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
@@ -49,6 +50,7 @@ function App() {
           <Route path="/reservation" element={<Reservation />} />
           <Route path="/services" element={<Services />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/*" element={<Error404 />} />
         </Routes>
         <Footer />
       </Suspense>

@@ -5619,3 +5619,13 @@ small {
 .swiper-button-next::after {
   display: none;
 }
+
+
+.wrapper{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.wrapper img{
+  width: 500px;
+  max-width: 75%;
+}
