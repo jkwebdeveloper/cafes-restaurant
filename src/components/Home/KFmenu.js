@@ -1,5 +1,7 @@
 import React from 'react'
 import menu_logo from '../../assets/images/menu_logo.png'
+import { Link } from 'react-router-dom'
+
 
 const KFmenu = () => {
   return (
@@ -20,9 +22,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu1.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Americano Coffee</h5>
@@ -34,9 +36,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu2.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Espresso Coffee</h5>
@@ -48,9 +50,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu3.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Barista Pouring Syrup</h5>
@@ -62,9 +64,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu4.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Cold - Coffee</h5>
@@ -76,9 +78,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu5.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Cappuccino Arabica</h5>
@@ -90,9 +92,9 @@ const KFmenu = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <div className="kf-menu-item " data-animate="active">
               <div className="image kf-image-hover">
-                <a href="#" className="has-popup-image">
+                <Link to="#" className="has-popup-image">
                   <img src={require('../../assets/images/menu6.jpg')} alt="" />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Milk Cream Coffee</h5>

@@ -1,5 +1,6 @@
 import React from 'react'
-import cta_bg from '../../assets/images/cta_bg.jpg'
+import { Link } from 'react-router-dom'
+
 
 const TableBooking = () => {
   return (
@@ -20,10 +21,10 @@ const TableBooking = () => {
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-            <a href="/reservation" className="kf-btn " data-animate="active">
+            <Link to="/reservation" className="kf-btn " data-animate="active">
               <span>booking table</span>
               <i className="fas fa-chevron-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

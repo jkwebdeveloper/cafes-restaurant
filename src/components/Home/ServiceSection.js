@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const ServiceSection = () => {
   return (
@@ -7,9 +9,9 @@ const ServiceSection = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-services-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="/menu-restaurant">
+              <Link to="/menu-restaurant">
                 <img src={require('../../assets/images/service1.jpg')} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <div className="icon">
@@ -22,9 +24,9 @@ const ServiceSection = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-services-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="/menu-coffee">
+              <Link to="/menu-coffee">
                 <img src={require('../../assets/images/service2.jpg')} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <div className="icon">
@@ -37,9 +39,9 @@ const ServiceSection = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-services-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="/services">
+              <Link to="/services">
                 <img src={require('../../assets/images/service3.jpg')} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <div className="icon">

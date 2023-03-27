@@ -5,6 +5,8 @@ import testimonials_bg2 from '../assets/images/testimonials_bg2.jpeg'
 import Brands from '../components/About/Brands'
 import TableBooking from '../components/Home/TableBooking'
 import FeedBack from '../components/Home/FeedBack'
+import { Link } from 'react-router-dom'
+
 
 const Team = () => {
   return (
@@ -60,18 +62,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -92,18 +94,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -124,18 +126,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -156,18 +158,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -188,18 +190,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -220,18 +222,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -252,18 +254,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -284,18 +286,18 @@ const Team = () => {
                       <div className="label">+012 (345) 678 99</div>
                     </div>
                     <div className="social">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-youtube" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

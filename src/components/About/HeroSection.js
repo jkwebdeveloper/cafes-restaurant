@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
@@ -63,10 +64,10 @@ const HeroSection = () => {
               </li>
             </ul>
           </div>
-          <a href="/menu-coffee" className="kf-btn" data-animate="active">
+          <Link to="/menu-coffee" className="kf-btn" data-animate="active">
             <span>our menu</span>
             <i className="fas fa-chevron-right" />
-          </a>
+          </Link>
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
           <div className="kf-choose-image" data-animate="active">

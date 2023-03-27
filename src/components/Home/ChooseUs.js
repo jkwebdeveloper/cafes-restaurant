@@ -2,6 +2,8 @@ import React from 'react'
 import parallax_icon1 from '../../assets/images/parallax_icon1.png'
 import parallax_icon2 from '../../assets/images/parallax_icon2.png'
 import parallax_icon3 from '../../assets/images/parallax_icon3.png'
+import { Link } from 'react-router-dom'
+
 
 const ChooseUs = () => {
   return (
@@ -80,10 +82,10 @@ const ChooseUs = () => {
               </li>
             </ul>
           </div>
-          <a href="/about" className="kf-btn " data-animate="active">
+          <Link to="/about" className="kf-btn " data-animate="active">
             <span>explore more</span>
             <i className="fas fa-chevron-right" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

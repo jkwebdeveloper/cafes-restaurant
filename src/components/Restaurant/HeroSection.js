@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const HeroSection = () => {
   return (
@@ -8,12 +10,12 @@ const HeroSection = () => {
           <div className="kf-category-items" data-animate="active">
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="/menu-restaurant">
+                <Link to="/menu-restaurant">
                   <img
                     src={require('../../assets/images/category1.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Chiken Roll</h5>
@@ -21,12 +23,12 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="/menu-restaurant">
+                <Link to="/menu-restaurant">
                   <img
                     src={require('../../assets/images/category2.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Salad Bowl</h5>
@@ -34,12 +36,12 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="/menu-restaurant">
+                <Link to="/menu-restaurant">
                   <img
                     src={require('../../assets/images/category3.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Lobsters</h5>
@@ -47,12 +49,12 @@ const HeroSection = () => {
             </div>
             <div className="kf-category-item">
               <div className="image kf-image-hover">
-                <a href="/menu-restaurant">
+                <Link to="/menu-restaurant">
                   <img
                     src={require('../../assets/images/ins_gal1.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Italian Burger</h5>
@@ -79,10 +81,10 @@ const HeroSection = () => {
               odit aut fugit sed quia con
             </p>
           </div>
-          <a href="/menu-restaurant" className="kf-btn" data-animate="active">
+          <Link to="/menu-restaurant" className="kf-btn" data-animate="active">
             <span>explore more Category</span>
             <i className="fas fa-chevron-right" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

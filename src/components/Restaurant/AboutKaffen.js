@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const AboutKaffen = () => {
   return (
@@ -40,10 +42,10 @@ const AboutKaffen = () => {
               </li>
             </ul>
           </div>
-          <a href="/about" className="kf-btn" data-animate="active">
+          <Link to="/about" className="kf-btn" data-animate="active">
             <span>explore more us</span>
             <i className="fas fa-chevron-right" />
-          </a>
+          </Link>
         </div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1 align-self-center">
           <div className="kf-services-items-2 row">

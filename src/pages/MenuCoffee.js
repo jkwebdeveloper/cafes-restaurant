@@ -3,6 +3,8 @@ import service3 from '../assets/images/service3.jpg'
 import menu_logo from '../assets/images/menu_logo.png'
 import reservation5 from '../assets/images/reservation5.jpg'
 import reservation6 from '../assets/images/reservation6.jpg'
+import { Link } from 'react-router-dom'
+
 
 
 const MenuCoffee = () => {
@@ -46,18 +48,18 @@ const MenuCoffee = () => {
               className="kf-filter kf-filter-menu"
               data-animate="active"
             >
-              <a href="#" data-href=".all" className="active">
+              <Link to="#" data-href=".all" className="active">
                 All
-              </a>
-              <a href="#" data-href=".fast-food">
+              </Link>
+              <Link to="#" data-href=".fast-food">
                 Fast food
-              </a>
-              <a href="#" data-href=".hot-coffee">
+              </Link>
+              <Link to="#" data-href=".hot-coffee">
                 Hot coffee
-              </a>
-              <a href="#" data-href=".dessert">
+              </Link>
+              <Link to="#" data-href=".dessert">
                 Dessert
-              </a>
+              </Link>
             </div>
             <div
               className="kf-menu-items"
@@ -70,9 +72,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu1.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Americano</h5>
@@ -89,9 +91,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu2.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Espresso</h5>
@@ -108,9 +110,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu3.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Barista Pouring Syrup</h5>
@@ -127,9 +129,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu4.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Late</h5>
@@ -146,9 +148,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu5.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Cappuccino Arabica</h5>
@@ -165,9 +167,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/menu6.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Milk Cream</h5>
@@ -184,9 +186,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Italian Burger</h5>
@@ -203,9 +205,9 @@ const MenuCoffee = () => {
                     data-animate="active"
                   >
                     <div className="image kf-image-hover">
-                      <a href="#" className="has-popup-image">
+                      <Link to="#" className="has-popup-image">
                         <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="desc">
                       <h5 className="name">Chicken Burger</h5>

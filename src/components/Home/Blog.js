@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
@@ -15,12 +16,12 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="#">
+              <Link to="#">
                 <img
                   src={require('../../assets/images/latest_blog1.jpg')}
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <h5 className="name">
@@ -40,12 +41,12 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="#">
+              <Link to="#">
                 <img
                   src={require('../../assets/images/latest_blog2.jpg')}
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <h5 className="name">
@@ -65,12 +66,12 @@ const Blog = () => {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <div className="kf-blog-grid-item " data-animate="active">
             <div className="image kf-image-hover">
-              <a href="#">
+              <Link to="#">
                 <img
                   src={require('../../assets/images/latest_blog3.jpg')}
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="desc">
               <h5 className="name">
@@ -89,10 +90,10 @@ const Blog = () => {
         </div>
       </div>
       <div className="align-center">
-        <a href="#" className="kf-btn " data-animate="active">
+        <Link to="#" className="kf-btn " data-animate="active">
           <span>view all</span>
           <i className="fas fa-chevron-right" />
-        </a>
+        </Link>
       </div>
     </div>
   )

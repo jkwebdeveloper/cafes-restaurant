@@ -17,6 +17,8 @@ import FeedBack from '../components/Home/FeedBack'
 import ClientNumbers from '../components/Home/ClientNumbers'
 import Blog from '../components/Home/Blog'
 import TableBooking from '../components/Home/TableBooking'
+import { Link } from 'react-router-dom'
+
 
 const Home = () => {
   const [index, setIndex] = useState(null)
@@ -71,14 +73,14 @@ const Home = () => {
                   Coffee House
                 </h2>
                 <div className="kf-bts">
-                  <a href="/menu-restaurant" className="kf-btn">
+                  <Link to="/menu-restaurant" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
-                  <a href="/reservation" className="kf-btn dark-btn">
+                  </Link>
+                  <Link to="/reservation" className="kf-btn dark-btn">
                     <span>get delivery</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -102,14 +104,14 @@ const Home = () => {
                   Coffee House
                 </h2>
                 <div className="kf-bts">
-                  <a href="/menu-coffee" className="kf-btn">
+                  <Link to="/menu-coffee" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
-                  <a href="/reservation" className="kf-btn dark-btn">
+                  </Link>
+                  <Link to="/reservation" className="kf-btn dark-btn">
                     <span>get delivery</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,14 +133,14 @@ const Home = () => {
                   Good Vibes
                 </h2>
                 <div className="kf-bts">
-                  <a href="/menu-coffee" className="kf-btn">
+                  <Link to="/menu-coffee" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
-                  <a href="/reservation" className="kf-btn dark-btn">
+                  </Link>
+                  <Link to="/reservation" className="kf-btn dark-btn">
                     <span>get delivery</span>
                     <i className="fas fa-chevron-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

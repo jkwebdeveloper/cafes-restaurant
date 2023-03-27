@@ -1,6 +1,7 @@
 // import React from 'react'
 import React, { useEffect, useState } from 'react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [stickyHeader, setStickyHeader] = useState('')
@@ -54,18 +55,18 @@ const Header = () => {
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
               {/* social */}
               <div className="kf-h-social">
-                <a href="facebook.com" target="blank">
+                <Link to="/" target="blank">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="twitter.com" target="blank">
+                </Link>
+                <Link to="/" target="blank">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="instagram.com" target="blank">
+                </Link>
+                <Link to="/" target="blank">
                   <i className="fab fa-instagram" />
-                </a>
-                <a href="youtube.com" target="blank">
+                </Link>
+                <Link to="/" target="blank">
                   <i className="fab fa-youtube" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
@@ -83,9 +84,9 @@ const Header = () => {
             <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
               {/* logo */}
               <div className="kf-logo">
-                <a href="/">
+                <Link to="/">
                   <img src={require('../assets/images/logo.png')} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center">
@@ -93,65 +94,65 @@ const Header = () => {
               <div className="kf-main-menu">
                 <ul>
                   <li>
-                    <a href="/">
+                    <Link to="/">
                       Home
                       <i className="las la-angle-down" />
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/">Coffee House</a>
+                        <Link to="/">Coffee House</Link>
                       </li>
                       <li>
-                        <a href="/restaurant">Restaurant</a>
+                        <Link to="/restaurant">Restaurant</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/about">About</a>
+                    <Link to="/about">About</Link>
                   </li>
 
                   <li>
-                    <a href="/menu-coffee">
-                      Menu
-                      <i className="las la-angle-down" />
-                    </a>
+                    <Link to="/menu-coffee">Menu</Link>
+
+                    <i className="las la-angle-down" />
+
                     <ul>
                       <li>
-                        <a href="/menu-coffee">Menu Coffee</a>
+                        <Link to="/menu-coffee">Menu Coffee</Link>
                       </li>
                       <li>
-                        <a href="/menu-restaurant">Menu Restaurant</a>
+                        <Link to="/menu-restaurant">Menu Restaurant</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       Pages
                       <i className="las la-angle-down" />
-                    </a>
+                    </Link>
                     <ul>
                       <li>
-                        <a href="/services">Service</a>
+                        <Link to="/services">Service</Link>
                       </li>
                       <li>
-                        <a href="/reservation">Reservation</a>
+                        <Link to="/reservation">Reservation</Link>
                       </li>
                       <li>
-                        <a href="/history">History</a>
+                        <Link to="/history">History</Link>
                       </li>
                       <li>
-                        <a href="/team">Our Chefs</a>
+                        <Link to="/team">Our Chefs</Link>
                       </li>
                       <li>
-                        <a href="/gallery">Gallery</a>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                       <li>
-                        <a href="/faq">FAQ</a>
+                        <Link to="/faq">FAQ</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/contact">Contacts</a>
+                    <Link to="/contact">Contacts</Link>
                   </li>
                 </ul>
               </div>
@@ -166,7 +167,7 @@ const Header = () => {
                 />
               ) : (
                 <a
-                  href="#"
+                  to="#"
                   className="kf-menu-btn"
                   onClick={() => setMobileViewHeader(true)}
                 >
@@ -174,9 +175,9 @@ const Header = () => {
                 </a>
               )}
               {/* btn */}
-              <a href="/reservation" className="kf-btn h-btn">
+              <Link to="/reservation" className="kf-btn h-btn">
                 <span>Book a table</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -186,73 +187,73 @@ const Header = () => {
           <div className="kf-main-menu">
             <ul>
               <li className="has-children">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="/">Coffee House</a>
+                    <Link to="/">Coffee House</Link>
                   </li>
                   <li>
-                    <a href="/restaurant">Restaurant</a>
+                    <Link to="/restaurant">Restaurant</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="has-children">
-                <a href="/menu-coffee">Menu</a>
+                <Link to="/menu-coffee">Menu</Link>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="/menu-coffee">Menu Coffee</a>
+                    <Link to="/menu-coffee">Menu Coffee</Link>
                   </li>
                   <li>
-                    <a href="/menu-restaurant">Menu Restaurant</a>
+                    <Link to="/menu-restaurant">Menu Restaurant</Link>
                   </li>
                 </ul>
               </li>
               <li className="has-children">
-                <a href="#">Pages</a>
-                <i className="las la-angle-down"/>
+                <Link to="#">Pages</Link>
+                <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="/services">Service</a>
+                    <Link to="/services">Service</Link>
                   </li>
                   <li>
-                    <a href="/reservation">Reservation</a>
+                    <Link to="/reservation">Reservation</Link>
                   </li>
                   <li>
-                    <a href="/history">History</a>
+                    <Link to="/history">History</Link>
                   </li>
                   <li>
-                    <a href="/team">Our Chefs</a>
+                    <Link to="/team">Our Chefs</Link>
                   </li>
                   <li>
-                    <a href="/gallery">Gallery</a>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                   <li>
-                    <a href="/faq">FAQ</a>
+                    <Link to="/faq">FAQ</Link>
                   </li>
                 </ul>
               </li>
               <li className="has-children">
-                <a href="#">Blog</a>
+                <Link to="#">Blog</Link>
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <a href="/blog-grid">Blog Grid</a>
+                    <Link to="/blog-grid">Blog Grid</Link>
                   </li>
                   <li>
-                    <a href="/blog">Blog Standard</a>
+                    <Link to="/blog">Blog Standard</Link>
                   </li>
                   <li>
-                    <a href="/blog-single">Blog Single</a>
+                    <Link to="/blog-single">Blog Single</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/contact">Contacts</a>
+                <Link to="/contact">Contacts</Link>
               </li>
             </ul>
           </div>
@@ -261,26 +262,26 @@ const Header = () => {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* mobile btn */}
-                <a href="/reservation" className="kf-btn h-btn">
+                <Link to="/reservation" className="kf-btn h-btn">
                   <span>Book a table</span>
                   <i className="fas fa-chevron-right" />
-                </a>
+                </Link>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* social */}
                 <div className="kf-h-social">
-                  <a href="#" target="blank">
+                  <Link to="#" target="blank">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#" target="blank">
+                  </Link>
+                  <Link to="#" target="blank">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a href="#" target="blank">
+                  </Link>
+                  <Link to="#" target="blank">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#" target="blank">
+                  </Link>
+                  <Link to="#" target="blank">
                     <i className="fab fa-youtube" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">

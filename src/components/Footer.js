@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -9,9 +11,9 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               {/* logo */}
               <div className="kf-logo">
-                <a href="/">
+                <Link to="/">
                   <img src={require('../assets/images/logo.png')} alt="" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">

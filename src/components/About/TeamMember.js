@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TeamMember = () => {
   return (
@@ -25,18 +26,18 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-linkedin" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-youtube" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -54,18 +55,18 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-linkedin" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-youtube" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -83,18 +84,18 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-linkedin" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-youtube" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -112,18 +113,18 @@ const TeamMember = () => {
                 <div className="label">+012 (345) 678 99</div>
               </div>
               <div className="social">
-                <a href="#">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-linkedin" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <i className="fab fa-youtube" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

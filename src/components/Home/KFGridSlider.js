@@ -1,11 +1,12 @@
 import React from 'react'
 import { Navigation } from 'swiper'
-import '../Home/Gridslider.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+import { Link } from 'react-router-dom'
+
 
 const KFGridSlider = () => {
   return (
@@ -64,12 +65,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal4.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Iced Coffee</h5>
@@ -89,12 +90,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal5.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Espresso</h5>
@@ -114,12 +115,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal1.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Black Coffee</h5>
@@ -139,12 +140,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal2.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Latte</h5>
@@ -164,12 +165,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal3.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Cappuccino</h5>
@@ -189,12 +190,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal4.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Iced Coffee</h5>
@@ -214,12 +215,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal5.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Espresso</h5>
@@ -239,12 +240,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal1.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Black Coffee</h5>
@@ -264,12 +265,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal2.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Latte</h5>
@@ -289,12 +290,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal3.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Cappuccino</h5>
@@ -314,12 +315,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal4.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Iced Coffee</h5>
@@ -339,12 +340,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal5.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal5.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Espresso</h5>
@@ -364,12 +365,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal1.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal1.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Black Coffee</h5>
@@ -389,12 +390,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal2.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal2.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Latte</h5>
@@ -414,12 +415,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal3.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal3.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Cappuccino</h5>
@@ -439,12 +440,12 @@ const KFGridSlider = () => {
               style={{ visibility: 'visible' }}
             >
               <div className="image kf-image-hover">
-                <a href={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
+                <Link to={require('../../assets/images/grid_gal4.jpg')} className="has-popup-image">
                   <img
                     src={require('../../assets/images/grid_gal4.jpg')}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="desc">
                 <h5 className="name">Iced Coffee</h5>

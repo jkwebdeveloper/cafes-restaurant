@@ -21,6 +21,8 @@ import Brands from '../components/About/Brands'
 import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import { Link } from 'react-router-dom'
+
 
 
 const Restaurant = () => {
@@ -74,14 +76,14 @@ const Restaurant = () => {
                     Table Today
                   </h2>
                   <div className="kf-bts">
-                    <a href="menu-restaurant" className="kf-btn">
+                    <Link to="menu-restaurant" className="kf-btn">
                       <span>explore more</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
-                    <a href="/reservation" className="kf-btn dark-btn">
+                    </Link>
+                    <Link to="/reservation" className="kf-btn dark-btn">
                       <span>get delivery</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -101,14 +103,14 @@ const Restaurant = () => {
                     Lobsters
                   </h2>
                   <div className="kf-bts">
-                    <a href="/menu-restaurant" className="kf-btn">
+                    <Link to="/menu-restaurant" className="kf-btn">
                       <span>explore more</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
-                    <a href="/reservation" className="kf-btn dark-btn">
+                    </Link>
+                    <Link to="/reservation" className="kf-btn dark-btn">
                       <span>get delivery</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -128,14 +130,14 @@ const Restaurant = () => {
                     Meat Kaffen
                   </h2>
                   <div className="kf-bts">
-                    <a href="/menu-restaurant" className="kf-btn">
+                    <Link to="/menu-restaurant" className="kf-btn">
                       <span>explore more</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
-                    <a href="/reservation" className="kf-btn dark-btn">
+                    </Link>
+                    <Link to="/reservation" className="kf-btn dark-btn">
                       <span>get delivery</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
