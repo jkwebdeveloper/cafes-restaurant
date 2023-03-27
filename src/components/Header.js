@@ -112,16 +112,16 @@ const Header = () => {
                   </li>
 
                   <li>
-                    <Link to="/menu-coffee">Menu</Link>
-
-                    <i className="las la-angle-down" />
-
+                    <Link to="/menu-coffee">
+                      Menu
+                      <i className="las la-angle-down" />
+                    </Link>
                     <ul>
                       <li>
-                        <Link to="/menu-coffee">Menu Coffee</Link>
+                        <Link to="/menu-coffee">Coffee</Link>
                       </li>
                       <li>
-                        <Link to="/menu-restaurant">Menu Restaurant</Link>
+                        <Link to="/menu-restaurant">Restaurant</Link>
                       </li>
                     </ul>
                   </li>
@@ -206,10 +206,10 @@ const Header = () => {
                 <i className="las la-angle-down" />
                 <ul>
                   <li>
-                    <Link to="/menu-coffee">Menu Coffee</Link>
+                    <Link to="/menu-coffee">Coffee</Link>
                   </li>
                   <li>
-                    <Link to="/menu-restaurant">Menu Restaurant</Link>
+                    <Link to="/menu-restaurant">Restaurant</Link>
                   </li>
                 </ul>
               </li>
