@@ -5621,11 +5621,12 @@ small {
 }
 
 
-.wrapper{
+.error{
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 10rem;
 }
-.wrapper img{
+.error img{
   width: 500px;
   max-width: 75%;
 }
