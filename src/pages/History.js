@@ -297,12 +297,12 @@ const History = () => {
           <Blog />
         </section>
         {/* Section CTA */}
-        <TableBooking />
-        {/* <section
+        <section
           className="section kf-cta kf-parallax"
           style={{ backgroundImage: `url(${cta_bg})` }}
         >
-        </section> */}
+        <TableBooking />
+        </section>
       </div>
     </div>
   )

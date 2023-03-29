@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{
@@ -24,7 +24,7 @@ const Contact = () => {
               Contact Us
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Contacts Info */}
         <section className="section kf-contacts-info">
           <div className="container">

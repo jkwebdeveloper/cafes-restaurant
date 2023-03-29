@@ -1992,7 +1992,7 @@
 
 .kf-history-item {
   position: relative;
-  max-width: 980px;
+  max-width: 1030px;
   background: $base_background;
   .image {
     position: relative;
@@ -2042,7 +2042,7 @@
     width: 258px;
     height: 60px;
     line-height: 60px;
-    left: -70px;
+    left: 0px;
     top: 350px;
     background: $base_link_color;
     text-align: center;
@@ -2332,7 +2332,7 @@
 **/
 
 .kf-contacts-items {
-  margin-top: -30px;
+  margin-top: -130px;
 }
 
 .kf-contacts-item {
@@ -3515,7 +3515,7 @@ small {
 }
 
 .kf-testimonials-carousel {
-  padding: 35px 0 70px 0;
+  padding: 35px 0 0px 0;
   position: relative;
   .swiper-slide {
     opacity: 0;
