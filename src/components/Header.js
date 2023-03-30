@@ -85,7 +85,7 @@ const Header = () => {
               {/* logo */}
               <div className="kf-logo">
                 <Link to="/">
-                  <img src={require('../assets/images/logo.png')} alt="" />
+                  <img src={require('../assets/images/logo1.png')} alt="" />
                 </Link>
               </div>
             </div>

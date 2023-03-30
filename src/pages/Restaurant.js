@@ -213,9 +213,9 @@ const Restaurant = () => {
         </section>
 
         {/* Section Latest Blog */}
-        <section className="section kf-latest-blog section-bg">
+        {/* <section className="section kf-latest-blog section-bg">
           <Blog />
-        </section>
+        </section> */}
 
         {/* Section Insta Carousel */}
         <div className="section kf-insta-carousel" data-animate="active">

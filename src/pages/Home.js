@@ -192,9 +192,9 @@ const Home = () => {
         <ClientNumbers />
       </section>
       {/* Section Latest Blog */}
-      <section className="section kf-latest-blog section-bg">
+      {/* <section className="section kf-latest-blog section-bg">
         <Blog />
-      </section>
+      </section> */}
       {/* Section CTA */}
       <section
       className="section kf-cta kf-parallax"
