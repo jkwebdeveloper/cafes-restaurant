@@ -62,7 +62,7 @@ const EmailTemplate = () => {
                                       className="text-12 c-grey l-grey a-right py-20"
                                       style={{
                                         fontSize: 12,
-                                        lineHeight: 16,
+                                        lineHeight: 6,
                                         fontFamily:
                                           '"PT Sans", Arial, sans-serif',
                                         minWidth: 'auto !important',
@@ -152,7 +152,7 @@ const EmailTemplate = () => {
                                                         target="_blank"
                                                       >
                                                         <img
-                                                          src="./images/logo-dark.jpg"
+                                                          src={require('../assets/images/logo-dark.jpg')}
                                                           border={0}
                                                           alt="Logo"
                                                         />
@@ -214,7 +214,7 @@ const EmailTemplate = () => {
                                                                       }}
                                                                     >
                                                                       <img
-                                                                        src="./images/img_intro_5.png"
+                                                                        src={require('../assets/images/img_intro_5.png')}
                                                                         width={
                                                                           284
                                                                         }
@@ -233,7 +233,7 @@ const EmailTemplate = () => {
                                                                       className="title-36 a-center pb-15"
                                                                       style={{
                                                                         fontSize: 36,
-                                                                        lineHeight: 40,
+                                                                        // lineHeight: 1,
                                                                         color:
                                                                           '#282828',
                                                                         fontFamily:
@@ -262,10 +262,9 @@ const EmailTemplate = () => {
                                                                           '"PT Sans", Arial, sans-serif',
                                                                         minWidth:
                                                                           'auto !important',
-                                                                        lineHeight: 26,
+                                                                        lineHeight: 6,
                                                                         textAlign:
                                                                           'center',
-                                                                        paddingBottom: 25,
                                                                       }}
                                                                     >
                                                                       Vous avez
@@ -371,7 +370,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -380,7 +379,7 @@ const EmailTemplate = () => {
                                                                                           'left',
                                                                                         minWidth:
                                                                                           'auto !important',
-                                                                                        paddingBottom: 15,
+                                                                                        // paddingBottom: 15,
                                                                                       }}
                                                                                     >
                                                                                       <strong>
@@ -404,7 +403,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -435,7 +434,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -468,7 +467,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -501,7 +500,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -533,7 +532,7 @@ const EmailTemplate = () => {
                                                                                       className="title-20 pb-15"
                                                                                       style={{
                                                                                         fontSize: 20,
-                                                                                        lineHeight: 24,
+                                                                                        lineHeight: 2,
                                                                                         color:
                                                                                           '#282828',
                                                                                         fontFamily:
@@ -628,7 +627,7 @@ const EmailTemplate = () => {
                                                 fontFamily:
                                                   '"PT Sans", Arial, sans-serif',
                                                 minWidth: 'auto !important',
-                                                lineHeight: 24,
+                                                lineHeight: 2,
                                                 textAlign: 'center',
                                                 color: '#ffffff',
                                                 paddingBottom: 20,

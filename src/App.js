@@ -1,10 +1,9 @@
 import React, { lazy, Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import EmailTemplate from './components/EmailTemplate'
+// import EmailTemplate from './components/EmailTemplate'
 import Footer from './components/Footer'
-import FormValidation from './components/FormValidation'
 import Header from './components/Header'
-// import Error404 from './pages/Error404'
+import Error404 from './pages/Error404'
 
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
@@ -52,9 +51,8 @@ function App() {
           <Route path="/reservation" element={<Reservation />} />
           <Route path="/services" element={<Services />} />
           <Route path="/team" element={<Team />} />
-          {/* <Route path="/*" element={<Error404 />} /> */}
-          <Route path='/email' element={ <EmailTemplate/> }/>
-          <Route path='/*' element={<FormValidation/> }/>
+          <Route path="/*" element={<Error404 />} />
+          {/* <Route path='/*' element={ <EmailTemplate/> }/> */}
         </Routes>
         <Footer />
       </Suspense>

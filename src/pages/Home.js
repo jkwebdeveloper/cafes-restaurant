@@ -15,7 +15,6 @@ import ChooseUs from '../components/Home/ChooseUs'
 import KFGridSlider from '../components/Home/KFGridSlider'
 import FeedBack from '../components/Home/FeedBack'
 import ClientNumbers from '../components/Home/ClientNumbers'
-import Blog from '../components/Home/Blog'
 import TableBooking from '../components/Home/TableBooking'
 import { Link } from 'react-router-dom'
 

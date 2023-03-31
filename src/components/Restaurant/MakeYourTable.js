@@ -1,85 +1,36 @@
 import React, { useRef, useState } from 'react'
-// import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import { BiErrorCircle } from 'react-icons/bi'
 import { Formik } from 'formik'
-import * as Yup from 'yup'
-
-// const person = [
-//   { id: 1, name: '1 person' },
-//   { id: 2, name: '2 person' },
-//   { id: 3, name: '3 person' },
-//   { id: 4, name: '4 person' },
-// ]
+import * as yup from 'yup'
+import logo from '../../assets/images/logo-dark.jpg'
+// import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import Success from '../../assets/images/success.png'
 
 const MakeYourTable = () => {
-  // const [name, setName] = useState('')
-  // const [email, setEmail] = useState('')
-  // const [phone, setphone] = useState('')
-  // const [customer, setcustomer] = useState('')
-  // const [date, setdate] = useState('')
-  // const [time, settime] = useState('')
-  // const [errors, setErrors] = useState({})
-  // const [toSend, setToSend] = useState({
-  //   name: '',
-  //   email: '',
-  //   phone: '',
-  //   persons: '',
-  // })
+  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
 
-  // const formref = useRef()
+  const BookingSchema = yup.object().shape({
+    name: yup.string().required('This field is required !'),
+    email: yup
+      .string()
+      .email('Invalid email')
+      .required('This field is required'),
+    phone: yup
+      .string()
+      .matches(phoneRegExp, 'phone is invalid')
+      .required('phone is required'),
+    persons: yup.number().required('This is field is required'),
+    date: yup.date().required('This is field is required'),
+    time: yup.string().required('This is field is required'),
+  })
+  const today = new Date().toISOString().substr(0, 10)
 
-  // const handleChange = (e) => {
-  //   setToSend({ ...toSend, [e.target.name]: e.target.value })
-  // }
+  const formref = useRef(null)
+  console.log(formref)
 
-  // const hanldeSendEmail = (e) => {
-  // e.preventDefault()
-  // let formErrors = {}
-  // if (!toSend.name) {
-  //   formErrors.name = 'Name is required'
-  // }
-  // if (!toSend.email) {
-  //   formErrors.email = 'Email is required'
-  // } else if (!/\S+@\S+\.\S+/.test(email)) {
-  //   formErrors.email = 'Email is invalid'
-  // }
-  // if (!toSend.phone) {
-  //   formErrors.phone = 'Password is required'
-  // } else if (phone.length == 10) {
-  //   formErrors.phone = 'Phone number is wrong'
-  // }
-  // if (!toSend.customer) {
-  //   formErrors.customer = 'person is required'
-  // }
-  // if (!toSend.date) {
-  //   formErrors.date = 'date is required'
-  // } else if (!/\S+@\S+\.\S+/.test(email)) {
-  //   formErrors.date = 'date is invalid'
-  // }
-  // if (!toSend.time) {
-  //   formErrors.time = 'Password is required'
-  // } else if (time.length == 11) {
-  //   formErrors.time = ''
-  // }
-  // setErrors(formErrors)
-
-  // console.log(toSend)
-  // emailjs
-  //   .sendForm(
-  //     'service_1j45l3y',
-  //     'template_qkpku3v',
-  //     formref.current,
-  //     'wG9GGFL3JKaYFJk9W',
-  //   )
-  //   .then(
-  //     (result) => {
-  //       console.log(result)
-  //     },
-  //     (error) => {
-  //       console.log(error)
-  //     },
-  //   )
-  // }
   return (
     <div className="container">
       <div className="kf-reservation-form" data-animate="active">
@@ -92,53 +43,42 @@ const MakeYourTable = () => {
             name: '',
             email: '',
             phone: '',
-            number: '',
+            persons: '',
             date: '',
             time: '',
+            logo: logo,
           }}
-          validate={(values) => {
-            const errors = {}
+          validationSchema={BookingSchema}
+          onSubmit={(values, action) => {
+            // console.log(values)
+            action.resetForm()
+            // console.log('action', action)
 
-            if (!values.name) {
-              errors.name = 'This field is required !'
-            }
+            toast.success('Thanks, your message is sent successfully.', {
+              position: 'bottom-center',
+              theme: 'dark',
+            })
 
-            if (!values.email) {
-              errors.email = 'This field is required !'
-            } else if (
-              !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)
-            ) {
-              errors.email = 'This must a valid email'
-            }
-
-            if (!values.phone) {
-              errors.phone = 'This field is required !'
-            }
-
-            if (!values.number) {
-              errors.number = 'This field is required !'
-            }
-
-            if (!values.date) {
-              errors.date = 'This field is required !'
-            }
-
-            if (!values.time) {
-              errors.time = 'This field is required !'
-            }
-
-            return errors
-          }}
-          onSubmit={(values) => {
-            console.log(values)
+            // emailjs
+            //   .sendForm(
+            //     process.env.REACT_APP_EMAILJS_SERVICE_KEY,
+            //     process.env.REACT_APP_EMAILJS_TEMPLATE_KEY,
+            //     // values,
+            //     formref.current,
+            //     process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+            //   )
+            //   .then((res) => {
+            //     console.log(res)
+            //   })
+            //   .catch((err) => {
+            //     console.log(err)
+            //   })
           }}
         >
           {(formik) => (
-            <form id="rform" onSubmit={formik.handleSubmit}>
-              {console.log(formik.errors)}
-              {console.log(formik)}
-              {/*  ref={formref} onSubmit={(e) => hanldeSendEmail(e)} */}
+            <form id="rform" ref={formref} onSubmit={formik.handleSubmit}>
               <div className="row">
+                {/* <img src={`cid:${logo}`} alt="logo"></img> */}
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div className="kf-field">
                     <input
@@ -205,7 +145,8 @@ const MakeYourTable = () => {
                     <input
                       type="tel"
                       inputMode="numeric"
-                      pattern="[0-9]*"
+                      pattern="[0-9()-\s]{10,14}"
+                      maxLength="10"
                       name="phone"
                       placeholder="Phone Number"
                       value={formik.values.tel}
@@ -234,15 +175,13 @@ const MakeYourTable = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div className="kf-field">
-                  <input
+                    <input
                       type="number"
-                      name="number"
+                      name="persons"
                       placeholder="Person"
-                      value={formik.values.number}
+                      value={formik.values.persons}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      // value={toSend.phone}
-                      // onChange={handleChange}
                     />
                     {/* <select name="persons">
                       <option style={{ backgroundColor: '#090c0f' }}>
@@ -263,9 +202,9 @@ const MakeYourTable = () => {
                       className="error"
                       style={{ color: 'red', fontSize: '14px' }}
                     >
-                      {formik.errors.number}
+                      {formik.errors.persons}
                     </span>
-                    {formik.errors.number ? (
+                    {formik.errors.persons ? (
                       <BiErrorCircle
                         style={{
                           float: 'right',
@@ -281,12 +220,16 @@ const MakeYourTable = () => {
                     <input
                       type="date"
                       name="date"
+                      min={today}
                       value={formik.values.date}
                       onChange={formik.handleChange}
+                      // onChange={handleChange}
                       onBlur={formik.handleBlur}
+                      // max={moment().toDate()}
                       // value={toSend.date}
                       // onChange={handleChange}
                     />
+
                     <i className="far fa-calendar-alt" />
                     <span
                       className="error"
@@ -348,11 +291,12 @@ const MakeYourTable = () => {
                     <button
                       type="submit"
                       className="kf-btn"
-                      // onClick={() => hanldeSendEmail()}
+                      // onClick={diffToast}
                     >
                       <span>booking table</span>
                       <i className="fas fa-chevron-right" />
                     </button>
+                    {/* <Toaster /> */}
                   </div>
                 </div>
               </div>
@@ -362,6 +306,30 @@ const MakeYourTable = () => {
         <div className="alert-success" style={{ display: 'none' }}>
           <p>Thanks, your message is sent successfully.</p>
         </div>
+        {/* <div className="thankyou-section">
+          <div className="thankyou-box">
+            <div
+              style={{
+                BorderRadius: '200px',
+                Height: '400px',
+                Width: '400px',
+                Background: '#F8FAF5',
+                Margin: 'auto',
+              }}
+            >
+              <img src={Success} alt="" style={{ height: '100px' }} />
+            </div>
+            <p className="thankyou-heading">
+              Thanks, your message is sent successfully.
+            </p>
+
+            <button type="submit" className="kf-btn">
+              <span>Ok</span>
+              <i className="fas fa-chevron-right" />
+            </button>
+          </div>
+        </div> */}
+        <ToastContainer />
       </div>
     </div>
   )

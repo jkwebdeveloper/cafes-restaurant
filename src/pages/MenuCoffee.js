@@ -290,7 +290,7 @@ const MenuCoffee = () => {
                   <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div className="kf-bts">
                       <a
-                        href="#"
+                        href="/"
                         className="kf-btn"
                         onclick="$('#rform').submit(); return false;"
                       >

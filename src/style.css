@@ -5704,12 +5704,12 @@ small {
   display: none;
 }
 
-.error {
+.page-error {
   text-align: center;
   padding-bottom: 50px;
   padding-top: 10rem;
 }
-.error img {
+.page-error img {
   width: 500px;
   max-width: 75%;
 }
@@ -5717,4 +5717,58 @@ small {
   padding: 40px 0;
   position: relative;
   z-index: 2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.thankyou-section {
+  text-align: center;
+  padding: 40px 0;
+  padding: 90px 0px 160px;
+}
+.thankyou-heading {
+  font-weight: 500;
+  margin-left: 10px;
+  /* padding-top: 20px; */
+  font-size: 20px;
+  color: #fff;
+}
+.thankyou-dec {
+  color: #737373;
+}
+.thankyou-box {
+  background: #0e1317;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 400px;
+  border: 1px #b99272;
+}
+.continue-btn {
+  width: 120px;
+  padding: 8px;
+  border-radius: 20px;
+  margin: 11px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #005da2;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* Responsive css Start */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [className*="col-"] {
+    width: 100%;
+  }
+  .thankyou-box {
+    width: 96%;
+  }
 }

@@ -3,6 +3,7 @@ import menu_reservation from '../assets/images/menu_reservation_inner_bg2.jpg'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
 import MakeYourTable from '../components/Restaurant/MakeYourTable'
 import Brands from '../components/About/Brands'
+import EmailTemplate from '../components/EmailTemplate'
 
 const Reservation = () => {
   return (
@@ -31,10 +32,10 @@ const Reservation = () => {
           <MakeYourTable/>
         </section>
         {/* Section Insta Carousel */}
-        <ImagesSlider/>
+        <ImagesSlider />
         {/* Section Brands */}
         <div className="section kf-brands">
-          <Brands/>
+          <Brands />
         </div>
       </div>
     </div>

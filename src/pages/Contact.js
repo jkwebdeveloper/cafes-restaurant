@@ -1,5 +1,4 @@
 import React from 'react'
-import menu_reservation_inner_bg from '../assets/images/menu_reservation_inner_bg.jpg'
 import Brands from '../components/About/Brands'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
 

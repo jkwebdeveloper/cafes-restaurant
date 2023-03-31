@@ -15,7 +15,6 @@ import FeedBack from '../components/Home/FeedBack'
 import Video from '../components/Restaurant/Video'
 import Numbers from '../components/About/Numbers'
 import TableBooking from '../components/Home/TableBooking'
-import Blog from '../components/Home/Blog'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
 import Brands from '../components/About/Brands'
 import { Autoplay, Navigation } from 'swiper'
@@ -26,7 +25,7 @@ import { Link } from 'react-router-dom'
 
 
 const Restaurant = () => {
-  const [index, setIndex] = useState(null)
+  const [] = useState(null)
 
   const prevRef = useRef(null)
   const nextRef = useRef(null)
@@ -49,7 +48,7 @@ const Restaurant = () => {
           }}
           speed={1000}
           onSlideChange={(e) => {
-            setIndex(e.realIndex)
+            // setIndex(e.realIndex)
           }}
           direction={'horizontal'}
           onSwiper={(swiper) => {

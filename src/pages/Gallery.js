@@ -191,7 +191,7 @@ const Gallery = () => {
                 >
                   <div className="image kf-image-hover">
                     <a
-                      href="#"
+                      href="/"
                       className="has-popup-gallery"
                     >
                       <img src={require("../assets/images/grid_gal1.jpg")}  alt="" />

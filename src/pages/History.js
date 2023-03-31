@@ -4,7 +4,6 @@ import quote_line_icon1 from '../assets/images/quote_line_icon1.png'
 import quote_line_icon2 from '../assets/images/quote_line_icon2.png'
 import cta_bg from '../assets/images/cta_bg.jpg'
 import Brands from '../components/About/Brands'
-import Blog from '../components/Home/Blog'
 import TableBooking from '../components/Home/TableBooking'
 import { Navigation, Pagination, Scrollbar } from 'swiper'
 
