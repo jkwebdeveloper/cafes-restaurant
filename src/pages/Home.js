@@ -56,7 +56,7 @@ const Home = () => {
           })
         }}
       >
-        <SwiperSlide style={{ minWidth: '100%' }}>
+        <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
@@ -77,7 +77,7 @@ const Home = () => {
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
+                    <span>BOOK A TABLE</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -85,7 +85,7 @@ const Home = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ minWidth: '100%' }}>
+        <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
@@ -108,7 +108,7 @@ const Home = () => {
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
+                    <span>BOOK A TABLE</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -116,7 +116,7 @@ const Home = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ minWidth: '100%' }}>
+        <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
@@ -137,7 +137,7 @@ const Home = () => {
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
+                    <span>BOOK A TABLE</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>

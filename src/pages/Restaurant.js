@@ -9,7 +9,7 @@ import cta_bg from '../assets/images/cta_bg.jpg'
 import HeroSection from '../components/Restaurant/HeroSection'
 import FoodMenu from '../components/Restaurant/FoodMenu'
 import TeamMember from '../components/About/TeamMember'
-import MakeYourTable from '../components/Restaurant/MakeYourTable'
+// import MakeYourTable from '../components/Restaurant/MakeYourTable'
 import AboutKaffen from '../components/Restaurant/AboutKaffen'
 import FeedBack from '../components/Home/FeedBack'
 import Video from '../components/Restaurant/Video'
@@ -61,7 +61,7 @@ const Restaurant = () => {
             })
           }}
         >
-          <SwiperSlide style={{ minWidth: '100%' }}>
+          <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -80,7 +80,7 @@ const Restaurant = () => {
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>get delivery</span>
+                      <span>BOOK A TABLE</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
@@ -88,7 +88,7 @@ const Restaurant = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide style={{ minWidth: '100%' }}>
+          <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -107,7 +107,7 @@ const Restaurant = () => {
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>get delivery</span>
+                      <span>BOOK A TABLE</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
@@ -115,7 +115,7 @@ const Restaurant = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide style={{ minWidth: '100%' }}>
+          <SwiperSlide style={{ minWidth: '100%' ,cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -134,7 +134,7 @@ const Restaurant = () => {
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>get delivery</span>
+                      <span>BOOK A TABLE</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
@@ -173,9 +173,9 @@ const Restaurant = () => {
         </section>
 
         {/* Section Reservation */}
-        <section className="section kf-reservation kf-section-no-margin">
+        {/* <section className="section kf-reservation kf-section-no-margin">
           <MakeYourTable />
-        </section>
+        </section> */}
 
         {/* Section About-2 */}
         <section

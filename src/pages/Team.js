@@ -1,5 +1,5 @@
 import React from 'react'
-import team_inner_bg from '../assets/images/team_inner_bg.jpg'
+// import team_inner_bg from '../assets/images/team_inner_bg.jpg'
 import cta_bg from '../assets/images/cta_bg.jpg'
 import testimonials_bg2 from '../assets/images/testimonials_bg2.jpeg'
 import Brands from '../components/About/Brands'
@@ -13,7 +13,7 @@ const Team = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${team_inner_bg})` }}
@@ -27,7 +27,7 @@ const Team = () => {
               Our Chefs
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Team */}
         <section className="section kf-team section-bg">
           <div className="container">

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import history_inner_bg from '../assets/images/history_inner_bg.jpg'
+// import history_inner_bg from '../assets/images/history_inner_bg.jpg'
 import quote_line_icon1 from '../assets/images/quote_line_icon1.png'
 import quote_line_icon2 from '../assets/images/quote_line_icon2.png'
 import cta_bg from '../assets/images/cta_bg.jpg'
@@ -24,7 +24,7 @@ const History = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${history_inner_bg})` }}
@@ -38,7 +38,7 @@ const History = () => {
               Our History
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Quote */}
         <section className="section kf-quote">
           <div className="container">

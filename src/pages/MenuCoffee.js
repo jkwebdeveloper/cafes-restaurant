@@ -1,9 +1,11 @@
 import React from 'react'
-import service3 from '../assets/images/service3.jpg'
+// import service3 from '../assets/images/service3.jpg'
 import menu_logo from '../assets/images/menu_logo.png'
 import reservation5 from '../assets/images/reservation5.jpg'
 import reservation6 from '../assets/images/reservation6.jpg'
 import { Link } from 'react-router-dom'
+import Brands from '../components/About/Brands'
+import MakeYourTable from '../components/Restaurant/MakeYourTable'
 
 
 
@@ -12,7 +14,7 @@ const MenuCoffee = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${service3})` }}
@@ -26,7 +28,7 @@ const MenuCoffee = () => {
               Coffee Menu
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Menu */}
         <section className="section kf-menu kf-menu-tabs">
           <div className="container">
@@ -51,15 +53,13 @@ const MenuCoffee = () => {
               <Link to="#" data-href=".all" className="active">
                 All
               </Link>
-              <Link to="#" data-href=".fast-food">
-                Fast food
-              </Link>
-              <Link to="#" data-href=".hot-coffee">
+              <Link to="/menu-restaurant">Restaurant</Link>
+              {/* <Link to="#" data-href=".hot-coffee">
                 Hot coffee
               </Link>
               <Link to="#" data-href=".dessert">
                 Dessert
-              </Link>
+              </Link> */}
             </div>
             <div
               className="kf-menu-items"
@@ -237,7 +237,8 @@ const MenuCoffee = () => {
                 className="image-right"
                 style={{ backgroundImage: `url(${reservation6})` }}
               />
-              <div className="kf-titles align-center">
+              <MakeYourTable/>
+              {/* <div className="kf-titles align-center">
                 <div className="kf-subtitle">Booking Table</div>
                 <h3 className="kf-title">Make Your Reservation</h3>
               </div>
@@ -303,76 +304,13 @@ const MenuCoffee = () => {
               </form>
               <div className="alert-success" style={{ display: 'none' }}>
                 <p>Thanks, your message is sent successfully.</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
         {/* Section Brands */}
         <div className="section kf-brands">
-          <div className="container">
-            <div className="kf-brands-items row">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand1.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand2.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand3.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand4.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand5.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                <div
-                  className="kf-brands-item"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src={require("../assets/images/brand6.png")} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Brands/>
         </div>
       </div>
     </div>

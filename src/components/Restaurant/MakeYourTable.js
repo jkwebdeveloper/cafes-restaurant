@@ -7,7 +7,7 @@ import logo from '../../assets/images/logo-dark.jpg'
 // import toast, { Toaster } from 'react-hot-toast';
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Success from '../../assets/images/success.png'
+// import Success from '../../assets/images/success.png'
 
 const MakeYourTable = () => {
   const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
@@ -228,12 +228,13 @@ const MakeYourTable = () => {
                       // max={moment().toDate()}
                       // value={toSend.date}
                       // onChange={handleChange}
+                      style={{cursor: 'pointer'}}
                     />
 
                     <i className="far fa-calendar-alt" />
                     <span
                       className="error"
-                      style={{ color: 'red', fontSize: '14px' }}
+                      style={{ color: 'red', fontSize: '14px', }}
                     >
                       {formik.errors.date}
                     </span>
@@ -259,6 +260,7 @@ const MakeYourTable = () => {
                         borderRadius: '6px',
                         border: '1px solid #413f3f',
                         color: '#fff',
+                        cursor: 'pointer'
                       }}
                       name="time"
                       placeholder="Time"

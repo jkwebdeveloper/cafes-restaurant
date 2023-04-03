@@ -1,5 +1,5 @@
 import React from 'react'
-import history_inner_bg from '../assets/images/history_inner_bg.jpg'
+// import history_inner_bg from '../assets/images/history_inner_bg.jpg'
 import testimonials from '../assets/images/testimonials_bg2.jpeg'
 import cta_bg from '../assets/images/cta_bg.jpg'
 import HeroSection from '../components/About/HeroSection'
@@ -16,7 +16,7 @@ const About = () => {
     <div className="bg">
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${history_inner_bg})` }}
@@ -30,7 +30,7 @@ const About = () => {
               About Us
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section About-2 */}
         <section className="section kf-choose kf-choose-2">
           <HeroSection/>

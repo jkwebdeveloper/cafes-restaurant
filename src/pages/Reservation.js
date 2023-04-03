@@ -1,16 +1,16 @@
 import React from 'react'
-import menu_reservation from '../assets/images/menu_reservation_inner_bg2.jpg'
+// import menu_reservation from '../assets/images/menu_reservation_inner_bg2.jpg'
 import ImagesSlider from '../components/Restaurant/ImagesSlider'
 import MakeYourTable from '../components/Restaurant/MakeYourTable'
 import Brands from '../components/About/Brands'
-import EmailTemplate from '../components/EmailTemplate'
+// import EmailTemplate from '../components/EmailTemplate'
 
 const Reservation = () => {
   return (
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{
@@ -26,7 +26,7 @@ const Reservation = () => {
               Reservation
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Reservation */}
         <section className="section kf-reservation">
           <MakeYourTable/>

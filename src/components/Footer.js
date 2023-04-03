@@ -12,7 +12,7 @@ const Footer = () => {
               {/* logo */}
               <div className="kf-logo">
                 <Link to="/">
-                  <img src={require('../assets/images/logo.png')} alt="" />
+                  <img src={require('../assets/images/logo1.png')} alt="" />
                 </Link>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
               {/* copyright */}
               <div className="kf-copyright">
-                Copyright © 2022 Kaffen. All Rights Reserved.
+                Copyright © 2023 Chez Diallo. All Rights Reserved.
               </div>
             </div>
           </div>

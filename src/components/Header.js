@@ -94,18 +94,19 @@ const Header = () => {
               <div className="kf-main-menu">
                 <ul>
                   <li>
-                    <Link to="/">
+                    {/* <Link to="/">
                       Home
                       <i className="las la-angle-down" />
-                    </Link>
-                    <ul>
+                    </Link> */}
+                    <Link to="/restaurant">Restaurant</Link>
+                    {/* <ul>
                       <li>
                         <Link to="/">Coffee House</Link>
                       </li>
                       <li>
                         <Link to="/restaurant">Restaurant</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link to="/about">About</Link>
@@ -114,22 +115,23 @@ const Header = () => {
                   <li>
                     <Link to="/menu-coffee">
                       Menu
-                      <i className="las la-angle-down" />
+                      {/* <i className="las la-angle-down" /> */}
                     </Link>
-                    <ul>
+                    {/* <ul>
                       <li>
                         <Link to="/menu-coffee">Coffee</Link>
                       </li>
                       <li>
                         <Link to="/menu-restaurant">Restaurant</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link to="#">
                       Pages
                       <i className="las la-angle-down" />
                     </Link>
+
                     <ul>
                       <li>
                         <Link to="/services">Service</Link>
@@ -152,7 +154,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Contacts</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -186,32 +188,14 @@ const Header = () => {
           {/* mobile menu */}
           <div className="kf-main-menu">
             <ul>
-              <li className="has-children">
-                <Link to="/">Home</Link>
-                <i className="las la-angle-down" />
-                <ul>
-                  <li>
-                    <Link to="/">Coffee House</Link>
-                  </li>
-                  <li>
-                    <Link to="/restaurant">Restaurant</Link>
-                  </li>
-                </ul>
+              <li className="">
+                <Link to="/restaurant">Restaurant</Link>
               </li>
               <li>
                 <Link to="/about">About</Link>
               </li>
               <li className="has-children">
                 <Link to="/menu-coffee">Menu</Link>
-                <i className="las la-angle-down" />
-                <ul>
-                  <li>
-                    <Link to="/menu-coffee">Coffee</Link>
-                  </li>
-                  <li>
-                    <Link to="/menu-restaurant">Restaurant</Link>
-                  </li>
-                </ul>
               </li>
               <li className="has-children">
                 <Link to="#">Pages</Link>
@@ -237,7 +221,7 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li className="has-children">
+              {/* <li className="has-children">
                 <Link to="#">Blog</Link>
                 <i className="las la-angle-down" />
                 <ul>
@@ -251,7 +235,7 @@ const Header = () => {
                     <Link to="/blog-single">Blog Single</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">Contacts</Link>
               </li>

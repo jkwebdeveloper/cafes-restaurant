@@ -1,5 +1,5 @@
 import React from 'react'
-import faq_inner_bg from '../assets/images/faq_inner_bg.jpg'
+// import faq_inner_bg from '../assets/images/faq_inner_bg.jpg'
 import cta_bg2 from '../assets/images/cta_bg2.jpg'
 import Brands from '../components/About/Brands'
 import TableBooking from '../components/Home/TableBooking'
@@ -9,7 +9,7 @@ const Faq = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${faq_inner_bg})` }}
@@ -23,7 +23,7 @@ const Faq = () => {
               Faq
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Faq */}
         <section className="section kf-faq">
           <div className="container">

@@ -1,5 +1,5 @@
 import React from 'react'
-import gallery_inner_bg from '../assets/images/gallery_inner_bg.jpg'
+// import gallery_inner_bg from '../assets/images/gallery_inner_bg.jpg'
 import cta_bg3 from '../assets/images/cta_bg3.jpg'
 import TableBooking from '../components/Home/TableBooking'
 import Brands from '../components/About/Brands'
@@ -11,7 +11,7 @@ const Gallery = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${gallery_inner_bg})` }}
@@ -25,7 +25,7 @@ const Gallery = () => {
               Gallery
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Gallery */}
         <section className="section kf-gallery">
           <div className="container">
@@ -43,7 +43,7 @@ const Gallery = () => {
                 Looks Our Photo Gallery
               </h3>
             </div>
-            <div
+            {/* <div
               className="kf-filter kf-filter-gal"
               data-animate="active"
             >
@@ -62,7 +62,7 @@ const Gallery = () => {
               <Link to="#" data-href=".special-pizza">
                 Special pizza
               </Link>
-            </div>
+            </div> */}
             <div className="kf-gallery-items row">
               <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
                 <div

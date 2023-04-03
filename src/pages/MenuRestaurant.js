@@ -1,5 +1,5 @@
 import React from 'react'
-import menu_rest_inner_bg from '../assets/images/menu_rest_inner_bg.jpg'
+// import menu_rest_inner_bg from '../assets/images/menu_rest_inner_bg.jpg'
 import menu_r_l1 from '../assets/images/menu_r_l1.jpg'
 import menu_r_l2 from '../assets/images/menu_r_l2.jpg'
 import cta_bg3 from '../assets/images/cta_bg3.jpg'
@@ -17,7 +17,7 @@ const MenuRestaurant = () => {
     <div>
       <div className="wrapper">
         {/* Section Started Inner */}
-        <section className="section kf-started-inner">
+        {/* <section className="section kf-started-inner">
           <div
             className="kf-parallax-bg js-parallax"
             style={{ backgroundImage: `url(${menu_rest_inner_bg})` }}
@@ -31,7 +31,7 @@ const MenuRestaurant = () => {
               Restaurant Menu
             </h1>
           </div>
-        </section>
+        </section> */}
         {/* Section Menu-2 */}
         <section className="section kf-menu">
           <div className="container">

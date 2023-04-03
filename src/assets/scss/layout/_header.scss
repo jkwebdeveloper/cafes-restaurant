@@ -69,12 +69,14 @@
 
 .kf-topline {
 	padding: 10px 30px;
-	background: #090c0f;
+	// background: #090c0f;
+	background: #0e1317;
 }
 
 .kf-navbar {
 	padding: 20px 30px;
 	position: relative;
+	background: #090c0f;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -441,6 +443,11 @@
 		margin-left: 0;
 		display: inline-block;
 	}
+	.kf-main-menu ul li:hover ul {
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+	}
 }
 
 @-webkit-keyframes nav-mobile-open {
@@ -452,6 +459,7 @@
 		-webkit-transform: translate3d(0, 0, 0) skew(0deg);
 		transform: translate3d(0, 0, 0) skew(0deg);
 	}
+
 }
 
 @-webkit-keyframes nav-mobile-close {
