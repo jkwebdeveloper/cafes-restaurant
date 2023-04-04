@@ -1949,6 +1949,10 @@ button.mfp-arrow:before {
   .kf-p-title {
     font-size: 32px;
   }
+  /* .swiper-button-prev,
+.swiper-button-next{
+  display: none;
+} */
 }
 
 .section-bg {
@@ -5721,11 +5725,3 @@ small {
   z-index: 2;
 }
 
-@media only screen and (min-width: 320px) and (max-width : 767px) {
-  .swiper-button-prev{
-    display: none;
-  }
-  .swiper-button-next{
-    display: none;
-  }
-}

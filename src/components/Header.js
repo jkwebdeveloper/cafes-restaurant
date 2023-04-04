@@ -200,7 +200,7 @@ const Header = () => {
               <li className="has-children">
                 <Link to="#">Pages</Link>
                 <i className="las la-angle-down" />
-                <ul>
+                <ul style={{display:'block'}}>
                   <li>
                     <Link to="/services">Service</Link>
                   </li>
