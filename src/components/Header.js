@@ -98,7 +98,7 @@ const Header = () => {
                       Home
                       <i className="las la-angle-down" />
                     </Link> */}
-                    <Link to="/restaurant">Restaurant</Link>
+                    <Link to="/restaurant">Home</Link>
                     {/* <ul>
                       <li>
                         <Link to="/">Coffee House</Link>
@@ -148,9 +148,9 @@ const Header = () => {
                       <li>
                         <Link to="/gallery">Gallery</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/faq">FAQ</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li>
@@ -216,9 +216,9 @@ const Header = () => {
                   <li>
                     <Link to="/gallery">Gallery</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/faq">FAQ</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               {/* <li className="has-children">

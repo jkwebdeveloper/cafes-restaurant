@@ -36,11 +36,11 @@ const Home = () => {
           nextEl: nextRef?.current,
         }}
         loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        //   pauseOnMouseEnter: true,
+        // }}
         speed={1000}
         onSlideChange={(e) => {
           setIndex(e.realIndex)
@@ -148,12 +148,12 @@ const Home = () => {
         <div
           ref={prevRef}
           className="swiper-button-prev"
-          style={{ width: '2.7rem', height: '6rem', left: 0 }}
+          style={{ width: '2.7rem', height: '6rem', left: 0, marginTop:'-40px' }}
         />
         <div
           ref={nextRef}
           className="swiper-button-next"
-          style={{ width: '2.7rem', height: '6rem', right: 0 }}
+          style={{ width: '2.7rem', height: '6rem', right: 0, marginTop:'-40px' }}
         />
       </Swiper>
       {/* Section About */}

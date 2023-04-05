@@ -8,7 +8,7 @@ import Error404 from './pages/Error404'
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
-const Faq = lazy(() => import('./pages/Faq'))
+// const Faq = lazy(() => import('./pages/Faq'))
 const Gallery = lazy(() => import('./pages/Gallery'))
 const History = lazy(() => import('./pages/History'))
 const MenuCoffee = lazy(() => import('./pages/MenuCoffee'))
@@ -42,7 +42,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<Faq />} />
+          {/* <Route path="/faq" element={<Faq />} /> */}
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/history" element={<History />} />
           <Route path="/restaurant" element={<Restaurant />} />

@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom'
 import Brands from '../components/About/Brands'
 import MakeYourTable from '../components/Restaurant/MakeYourTable'
 
-
-
 const MenuCoffee = () => {
   return (
     <div>
@@ -33,33 +31,30 @@ const MenuCoffee = () => {
         <section className="section kf-menu kf-menu-tabs">
           <div className="container">
             <div className="kf-titles align-center">
-              <div
-                className="kf-subtitle"
-                data-animate="active"
-              >
+              <div className="kf-subtitle" data-animate="active">
                 Choose Best of
               </div>
-              <h3
-                className="kf-title"
-                data-animate="active"
-              >
+              <h3 className="kf-title" data-animate="active">
                 Kaffen Coffee Menu
               </h3>
             </div>
-            <div
-              className="kf-filter kf-filter-menu"
-              data-animate="active"
-            >
-              <Link to="#" data-href=".all" className="active">
+            <div className="kf-filter kf-filter-menu" data-animate="active">
+              {/* <Link to="#" data-href=".all" className="active">
                 All
+              </Link> */}
+              <Link to="#">Entrées</Link>
+              <Link to="#" data-href=".hot-coffee">
+                Plats
               </Link>
-              <Link to="/menu-restaurant">Restaurant</Link>
-              {/* <Link to="#" data-href=".hot-coffee">
-                Hot coffee
+              <Link to="#" data-href=".hot-coffee">
+                Boissons
               </Link>
               <Link to="#" data-href=".dessert">
-                Dessert
-              </Link> */}
+                Desserts
+              </Link>
+              <Link to="#" data-href=".dessert">
+                Salades
+              </Link>
             </div>
             <div
               className="kf-menu-items"
@@ -67,13 +62,13 @@ const MenuCoffee = () => {
             >
               <div className="row">
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu1.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu1.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -86,13 +81,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu2.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu2.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -105,13 +100,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu3.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu3.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -124,13 +119,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu4.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu4.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -143,13 +138,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu5.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu5.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -162,13 +157,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/menu6.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/menu6.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -181,13 +176,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all fast-food">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/ins_gal1.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/ins_gal1.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -200,13 +195,13 @@ const MenuCoffee = () => {
                   </div>
                 </div>
                 <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all fast-food">
-                  <div
-                    className="kf-menu-item"
-                    data-animate="active"
-                  >
+                  <div className="kf-menu-item" data-animate="active">
                     <div className="image kf-image-hover">
                       <Link to="#" className="has-popup-image">
-                        <img src={require("../assets/images/ins_gal3.jpg")} alt="" />
+                        <img
+                          src={require('../assets/images/ins_gal3.jpg')}
+                          alt=""
+                        />
                       </Link>
                     </div>
                     <div className="desc">
@@ -225,10 +220,7 @@ const MenuCoffee = () => {
         {/* Section Reservation */}
         <section className="section kf-reservation kf-section-no-margin">
           <div className="container">
-            <div
-              className="kf-reservation-form"
-              data-animate="active"
-            >
+            <div className="kf-reservation-form" data-animate="active">
               <div
                 className="image-left"
                 style={{ backgroundImage: `url(${reservation5})` }}
@@ -237,7 +229,7 @@ const MenuCoffee = () => {
                 className="image-right"
                 style={{ backgroundImage: `url(${reservation6})` }}
               />
-              <MakeYourTable/>
+              <MakeYourTable />
               {/* <div className="kf-titles align-center">
                 <div className="kf-subtitle">Booking Table</div>
                 <h3 className="kf-title">Make Your Reservation</h3>
@@ -310,7 +302,7 @@ const MenuCoffee = () => {
         </section>
         {/* Section Brands */}
         <div className="section kf-brands">
-          <Brands/>
+          <Brands />
         </div>
       </div>
     </div>
