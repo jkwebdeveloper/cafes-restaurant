@@ -32,10 +32,10 @@ const MenuCoffee = () => {
           <div className="container">
             <div className="kf-titles align-center">
               <div className="kf-subtitle" data-animate="active">
-                Choose Best of
+                Choisissez le meilleur menu
               </div>
               <h3 className="kf-title" data-animate="active">
-                Kaffen Coffee Menu
+                Choisissez le meilleur menu
               </h3>
             </div>
             <div className="kf-filter kf-filter-menu" data-animate="active">

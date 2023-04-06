@@ -11,7 +11,7 @@ const HeroSection = () => {
               className="kf-subtitle"
               // data-animate="active"
             >
-              About Kaffen
+              Chez Diallo - Tele jazz Restaurant
             </div>
             <h3
               className="kf-title"

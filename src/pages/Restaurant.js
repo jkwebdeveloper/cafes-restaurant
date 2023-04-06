@@ -22,8 +22,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import { Link } from 'react-router-dom'
 
-
-
 const Restaurant = () => {
   const [] = useState(null)
 
@@ -61,7 +59,7 @@ const Restaurant = () => {
             })
           }}
         >
-          <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
+          <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -69,10 +67,10 @@ const Restaurant = () => {
               />
               <div className="container">
                 <div className="description">
-                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <div className="subtitles">Bienvenue Chez Diallo</div>
                   <h2 className="name text-anim-1" data-splitting="chars">
-                    Reserve Your <br />
-                    Table Today
+                    Tele jazz <br />
+                    Restaurant
                   </h2>
                   <div className="kf-bts">
                     <Link to="menu-restaurant" className="kf-btn">
@@ -80,7 +78,7 @@ const Restaurant = () => {
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>BOOK A TABLE</span>
+                      <span>Réservez une table</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
@@ -88,7 +86,7 @@ const Restaurant = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
+          <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -96,18 +94,18 @@ const Restaurant = () => {
               />
               <div className="container">
                 <div className="description">
-                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <div className="subtitles">Bienvenue Chez Diallo</div>
                   <h2 className="name text-anim-1" data-splitting="chars">
-                    Explore The <br />
-                    Lobsters
+                    Tele jazz <br />
+                    Restaurant
                   </h2>
                   <div className="kf-bts">
                     <Link to="/menu-restaurant" className="kf-btn">
-                      <span>explore more</span>
+                      <span>Explorez</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>BOOK A TABLE</span>
+                      <span>Réservez une table</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
@@ -115,7 +113,7 @@ const Restaurant = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide style={{ minWidth: '100%' ,cursor: 'pointer' }}>
+          <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
             <div className="kf-started-item">
               <div
                 className="slide js-parallax"
@@ -123,18 +121,18 @@ const Restaurant = () => {
               />
               <div className="container">
                 <div className="description">
-                  <div className="subtitles">Welcome to the Kaffen</div>
+                  <div className="subtitles">Bienvenue Chez Diallo</div>
                   <h2 className="name text-anim-1" data-splitting="chars">
-                    Premium <br />
-                    Meat Kaffen
+                    Tele jazz <br />
+                    Restaurant
                   </h2>
                   <div className="kf-bts">
                     <Link to="/menu-restaurant" className="kf-btn">
-                      <span>explore more</span>
+                      <span>Explorez</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                     <Link to="/reservation" className="kf-btn dark-btn">
-                      <span>BOOK A TABLE</span>
+                      <span>Réservez une table</span>
                       <i className="fas fa-chevron-right" />
                     </Link>
                   </div>

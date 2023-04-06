@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const HeroSection = () => {
   return (
     <div className="container">
@@ -68,21 +67,21 @@ const HeroSection = () => {
               Popular Categories
             </div>
             <h3 className="kf-title" data-animate="active">
-              Choose Your Best Food <br />
-              From Categories
+              Van Chez Diallo - <br />
+              Restaurant Télé jazz
             </h3>
           </div>
           <div className="kf-text" data-animate="active">
             <p>
-              Sed ut perspiciatis unde omnis iste natus error accusantium
-              doloremque laudantium, totam rem aperiam eaque ipsa quae abillo
-              inventore veritatis quasi architecto beatae vitae dicta sunt
-              explicabo. Nemo enim ipsluptatem quia voluptas sit aspernatur aut
-              odit aut fugit sed quia con
+              Nouveau concept de restauration africaine dont la nourriture est
+              inspirée par nos racines guinéennes, sénégalaises et ivoiriennes.
+              Venez partager un bon moment entre amis ou en famille autour de
+              bons plats traditionnels que vous ne trouverez nul part ailleurs à
+              Bruxelles.
             </p>
           </div>
           <Link to="/menu-restaurant" className="kf-btn" data-animate="active">
-            <span>explore more Category</span>
+            <span>Voir le menu</span>
             <i className="fas fa-chevron-right" />
           </Link>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Herosection = () => {
   return (
     <div className="container">
@@ -14,18 +13,16 @@ const Herosection = () => {
               About Us
             </div>
             <h3 className="kf-title " data-animate="active">
-              Organic &amp; Fresh Coffee <br />
-              Provider Center
+              Van Chez Diallo - <br /> Restaurant Télé jazz
             </h3>
           </div>
           <div className="kf-text " data-animate="active">
             <p>
-              Sed ut perspiciatis unde omnis iste natus error voluptate
-              accusantium doloremque laudantium, totam rem aperiam eaque ipsa
-              quae abillo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsluptatem quia voluptas sit
-              aspernatur aut odit aut fugit sed quia consequuntur magni dolores
-              eos qui ratione
+              Nouveau concept de restauration africaine dont la nourriture est
+              inspirée par nos racines guinéennes, sénégalaises et ivoiriennes.
+              Venez partager un bon moment entre amis ou en famille autour de
+              bons plats traditionnels que vous ne trouverez nul part ailleurs à
+              Bruxelles.
             </p>
           </div>
           <div className="kf-about-quote " data-animate="active">

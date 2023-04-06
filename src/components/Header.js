@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
+
 const Header = () => {
   const [stickyHeader, setStickyHeader] = useState('')
   const [mobileViewHeader, setMobileViewHeader] = useState(false)
@@ -49,22 +50,22 @@ const Header = () => {
               {/* hours */}
               <div className="kf-h-group">
                 <i className="far fa-clock" />
-                <em>opening hours :</em> 08:00 am - 09:00 pm
+                <em>HEURES D'OUVERTURE :</em> 10:00 am - 23:00 pm
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
               {/* social */}
               <div className="kf-h-social">
-                <Link to="/" target="blank">
+                <Link to="https://www.facebook.com/people/Jazz-Resto/100066797857101/" target="blank">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/" target="blank">
-                  <i className="fab fa-twitter" />
+                <Link to="https://goo.gl/maps/x2u5CPNTRmC73vnt5" target="blank">
+                  <i className="fas fa-map-marker-alt" />
                 </Link>
-                <Link to="/" target="blank">
+                <Link to="https://www.instagram.com/chezdiallo_be/" target="blank">
                   <i className="fab fa-instagram" />
                 </Link>
-                <Link to="/" target="blank">
+                <Link to="https://www.youtube.com/@yaoraissa" target="blank">
                   <i className="fab fa-youtube" />
                 </Link>
               </div>
@@ -73,7 +74,7 @@ const Header = () => {
               {/* location */}
               <div className="kf-h-group">
                 <i className="fas fa-map-marker-alt" />
-                <em>Location :</em> 55 main street, new york
+                <em>ADRESSE :</em> Chaussée d'Anvers 84, 1000 Bruxelles, Belgique
               </div>
             </div>
           </div>
@@ -98,7 +99,7 @@ const Header = () => {
                       Home
                       <i className="las la-angle-down" />
                     </Link> */}
-                    <Link to="/restaurant">Home</Link>
+                    <Link to="/restaurant">Accueil</Link>
                     {/* <ul>
                       <li>
                         <Link to="/">Coffee House</Link>
@@ -109,7 +110,7 @@ const Header = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">A propos</Link>
                   </li>
 
                   <li>
@@ -128,7 +129,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link to="#">
-                      Pages
+                    Plus
                       <i className="las la-angle-down" />
                     </Link>
 
@@ -137,16 +138,16 @@ const Header = () => {
                         <Link to="/services">Service</Link>
                       </li>
                       <li>
-                        <Link to="/reservation">Reservation</Link>
+                        <Link to="/reservation">Réservation</Link>
                       </li>
                       <li>
-                        <Link to="/history">History</Link>
+                        <Link to="/history">Histoire</Link>
                       </li>
                       <li>
-                        <Link to="/team">Our Chefs</Link>
+                        <Link to="/team">Notre Chef</Link>
                       </li>
                       <li>
-                        <Link to="/gallery">Gallery</Link>
+                        <Link to="/gallery">Gallerie</Link>
                       </li>
                       {/* <li>
                         <Link to="/faq">FAQ</Link>
@@ -154,7 +155,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact">Contactez-nous</Link>
                   </li>
                 </ul>
               </div>
@@ -178,7 +179,7 @@ const Header = () => {
               )}
               {/* btn */}
               <Link to="/reservation" className="kf-btn h-btn">
-                <span>Book a table</span>
+                <span>Réservez une table</span>
               </Link>
             </div>
           </div>
@@ -189,32 +190,32 @@ const Header = () => {
           <div className="kf-main-menu">
             <ul>
               <li className="">
-                <Link to="/restaurant">Restaurant</Link>
+                <Link to="/restaurant">Accueil</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">A propos</Link>
               </li>
               <li className="has-children">
                 <Link to="/menu-coffee">Menu</Link>
               </li>
               <li className="has-children">
-                <Link to="#">Pages</Link>
+                <Link to="#">Plus</Link>
                 <i className="las la-angle-down" />
                 <ul style={{display:'block'}}>
                   <li>
                     <Link to="/services">Service</Link>
                   </li>
                   <li>
-                    <Link to="/reservation">Reservation</Link>
+                    <Link to="/reservation">Réservation</Link>
                   </li>
                   <li>
-                    <Link to="/history">History</Link>
+                    <Link to="/history">Histoire</Link>
                   </li>
                   <li>
-                    <Link to="/team">Our Chefs</Link>
+                    <Link to="/team">Notre Chef</Link>
                   </li>
                   <li>
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/gallery">Gallerie</Link>
                   </li>
                   {/* <li>
                     <Link to="/faq">FAQ</Link>
@@ -237,7 +238,7 @@ const Header = () => {
                 </ul>
               </li> */}
               <li>
-                <Link to="/contact">Contacts</Link>
+                <Link to="/contact">Contactez-nous</Link>
               </li>
             </ul>
           </div>
@@ -247,23 +248,23 @@ const Header = () => {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* mobile btn */}
                 <Link to="/reservation" className="kf-btn h-btn">
-                  <span>Book a table</span>
+                  <span>Réservez une table</span>
                   <i className="fas fa-chevron-right" />
                 </Link>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* social */}
                 <div className="kf-h-social">
-                  <Link to="#" target="blank">
+                  <Link to="https://www.facebook.com/people/Jazz-Resto/100066797857101/" target="blank">
                     <i className="fab fa-facebook-f" />
                   </Link>
-                  <Link to="#" target="blank">
-                    <i className="fab fa-twitter" />
+                  <Link to="https://goo.gl/maps/x2u5CPNTRmC73vnt5" target="blank">
+                    <i className="fas fa-map-marker-alt" />
                   </Link>
-                  <Link to="#" target="blank">
+                  <Link to="https://www.instagram.com/chezdiallo_be/" target="blank">
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="#" target="blank">
+                  <Link to="https://www.youtube.com/@yaoraissa" target="blank">
                     <i className="fab fa-youtube" />
                   </Link>
                 </div>
@@ -272,14 +273,14 @@ const Header = () => {
                 {/* hours */}
                 <div className="kf-h-group">
                   <i className="far fa-clock" />
-                  <em>opening hours :</em> 08:00 am - 09:00 pm
+                  <em>HEURES D'OUVERTURE :</em> 10:00 am - 23:00 pm
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 {/* location */}
                 <div className="kf-h-group">
                   <i className="fas fa-map-marker-alt" />
-                  <em>Location :</em> 55 main street, new york
+                  <em>Location :</em> Chaussée d'Anvers 84, 1000 Bruxelles, Belgique
                 </div>
               </div>
             </div>

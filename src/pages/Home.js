@@ -18,7 +18,6 @@ import ClientNumbers from '../components/Home/ClientNumbers'
 import TableBooking from '../components/Home/TableBooking'
 import { Link } from 'react-router-dom'
 
-
 const Home = () => {
   const [index, setIndex] = useState(null)
 
@@ -66,18 +65,18 @@ const Home = () => {
             />
             <div className="container">
               <div className="description align-left element-anim-1">
-                <div className="subtitles">Welcome to the Kaffen</div>
+                <div className="subtitles">Bienvenue Chez Diallo</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                  The London <br />
-                  Coffee House
+                  Tele jazz <br />
+                  Restaurant
                 </h2>
                 <div className="kf-bts">
                   <Link to="/menu-restaurant" className="kf-btn">
-                    <span>explore more</span>
+                    <span>Explorez</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>BOOK A TABLE</span>
+                    <span>Réservez une table </span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -85,7 +84,7 @@ const Home = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
+        <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
@@ -96,19 +95,18 @@ const Home = () => {
             />
             <div className="container">
               <div className="description align-left element-anim-1">
-                <div className="subtitles">Welcome to the Kaffen</div>
+                <div className="subtitles">Bienvenue Chez Diallo</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                  The Paris
-                  <br />
-                  Coffee House
+                  Tele jazz <br />
+                  Restaurant
                 </h2>
                 <div className="kf-bts">
                   <Link to="/menu-coffee" className="kf-btn">
-                    <span>explore more</span>
+                    <span>Explorez</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>BOOK A TABLE</span>
+                    <span>Réservez une table </span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -116,7 +114,7 @@ const Home = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ minWidth: '100%',cursor: 'pointer' }}>
+        <SwiperSlide style={{ minWidth: '100%', cursor: 'pointer' }}>
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
@@ -126,18 +124,18 @@ const Home = () => {
             />
             <div className="container">
               <div className="description align-left">
-                <div className="subtitles">Welcome to the Kaffen</div>
+                <div className="subtitles">Bienvenue Chez Diallo</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                  Great Coffee <br />
-                  Good Vibes
+                  Tele jazz <br />
+                  Restaurant
                 </h2>
                 <div className="kf-bts">
                   <Link to="/menu-coffee" className="kf-btn">
-                    <span>explore more</span>
+                    <span>Explorez</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                   <Link to="/reservation" className="kf-btn dark-btn">
-                    <span>BOOK A TABLE</span>
+                    <span>Réservez une table </span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -148,12 +146,22 @@ const Home = () => {
         <div
           ref={prevRef}
           className="swiper-button-prev"
-          style={{ width: '2.7rem', height: '6rem', left: 0, marginTop:'-40px' }}
+          style={{
+            width: '2.7rem',
+            height: '6rem',
+            left: 0,
+            marginTop: '-40px',
+          }}
         />
         <div
           ref={nextRef}
           className="swiper-button-next"
-          style={{ width: '2.7rem', height: '6rem', right: 0, marginTop:'-40px' }}
+          style={{
+            width: '2.7rem',
+            height: '6rem',
+            right: 0,
+            marginTop: '-40px',
+          }}
         />
       </Swiper>
       {/* Section About */}
@@ -196,10 +204,10 @@ const Home = () => {
       </section> */}
       {/* Section CTA */}
       <section
-      className="section kf-cta kf-parallax"
-      style={{ backgroundImage: `url(${cta_bg})` }}
-    >
-      <TableBooking />
+        className="section kf-cta kf-parallax"
+        style={{ backgroundImage: `url(${cta_bg})` }}
+      >
+        <TableBooking />
       </section>
     </div>
   )

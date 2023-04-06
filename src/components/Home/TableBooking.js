@@ -16,7 +16,7 @@ const TableBooking = () => {
                 Need a Table On Coffee House
               </div>
               <h3 className="kf-title " data-animate="active">
-                Booking Table For Your &amp; Family Members
+               Réservation pour vous et les membres de votre famille
               </h3>
             </div>
           </div>

@@ -36,13 +36,13 @@ const Team = () => {
                 className="kf-subtitle"
                 data-animate="active"
               >
-                Experience Team Member
+                MEMBRE DE L'ÉQUIPE D'EXPÉRIENCE
               </div>
               <h3
                 className="kf-title"
                 data-animate="active"
               >
-                Meet Our Professional Chefs
+                Rencontrez notre chef professionnel
               </h3>
             </div>
             <div className="kf-team-items row">
