@@ -32,26 +32,26 @@ const FeedBack = () => {
           slidesPerView={4}
           breakpoints={{
             320: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-          },
-          425: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-          },
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-        }}
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            425: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
@@ -82,9 +82,12 @@ const FeedBack = () => {
                   <i className="fas fa-star" />
                 </div>
                 <div className="text">
-                  Sed ut perspiciatis unde omnis natus error luptatem
-                  accusantium doloremque laudantium totam remriam eaque quae
-                  abillo
+                  «Petite découverte du jour. Le lieu est propre et
+                  chaleureux..on s'y sent comme à la maison. Le plat du jour"
+                  "tieboudienne" était juste un delice : copieux et appétissant.
+                  Quand est il du patron et de son épouse? Accueillant,souriant,
+                  attentif...on se sent tout de suite à l'aise. Mon fils et moi
+                  avons aimé le repas .Nous y reviendrons sûrement.»
                 </div>
                 <h5 className="name">
                   Frederick S. France <em>Web Deigner</em>
@@ -115,9 +118,12 @@ const FeedBack = () => {
                   <i className="fas fa-star" />
                 </div>
                 <div className="text">
-                  Sed ut perspiciatis unde omnis natus error luptatem
-                  accusantium doloremque laudantium totam remriam eaque quae
-                  abillo
+                  «Délicieux ! Le chef est super souriant, agréable et gentil.
+                  Les plats étaient un vrai délice! Nous ne nous attendions pas
+                  à une telle qualité, une vraie bonne surprise ! Les quantités
+                  sont généreuses. J'ai pris les plats à emporter mais le
+                  restaurant est très joli aussi. J'y retourne dès que possible
+                  !»
                 </div>
                 <h5 className="name">
                   James M. London <em>Lawyer</em>
@@ -148,9 +154,18 @@ const FeedBack = () => {
                   <i className="fas fa-star" />
                 </div>
                 <div className="kf-text">
-                  Sed ut perspiciatis unde omnis natus error luptatem
-                  accusantium doloremque laudantium totam remriam eaque quae
-                  abillo
+                  «Premiere expérience de ce sympathique restaurant aujourd hui.
+                  Jy ai pris un plat & ‘emporter. Apparemment, pour les plats &
+                  ‘emporter, il sagit toujours du plat du jour (whésitez pas a
+                  me corriger si je fais. erreur a ce sujet). Le prix pratiqué
+                  est tres raisonnable. Je suis entré dans un lieu que jal
+                  trouvé trés classe et justement décoré, avec une ambiance
+                  jazzy tres décontractée. Cela donne envie de s'y poser un peu
+                  plus. La carte est plus étendue si vous décidez de manger sur
+                  place. Le personnel est trés accueillant et souriant et la
+                  nourriture mia semblé tout @ fait excellente, tres savoureuse.
+                  Je vous remercie pour cette belle découverte. Je ne manquerai
+                  pas de my rendre & nouveau!»
                 </div>
                 <h5 className="name">
                   Olivia D. New York <em>Dentist</em>

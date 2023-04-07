@@ -10,8 +10,8 @@ const Service = () => {
               <img src={require('../../assets/images/service_icon1.png')} />
             </div>
             <div className="desc">
-              <h5 className="name">Birthday Cakes</h5>
-              <div className="subname">Sed ut perspiciatis unde</div>
+              <h5 className="name">Desserts</h5>
+              {/* <div className="subname">Sed ut perspiciatis unde</div> */}
             </div>
           </div>
         </div>
@@ -21,8 +21,8 @@ const Service = () => {
               <img src={require('../../assets/images/service_icon2.png')} alt="" />
             </div>
             <div className="desc">
-              <h5 className="name">Fresh Foods</h5>
-              <div className="subname">Sed ut perspiciatis unde</div>
+              <h5 className="name">cafés</h5>
+              {/* <div className="subname">Sed ut perspiciatis unde</div> */}
             </div>
           </div>
         </div>
@@ -32,8 +32,8 @@ const Service = () => {
               <img src={require('../../assets/images/service_icon3.png')} alt="" />
             </div>
             <div className="desc">
-              <h5 className="name">Skills Chefs</h5>
-              <div className="subname">Sed ut perspiciatis unde</div>
+              <h5 className="name">Plats</h5>
+              {/* <div className="subname">Sed ut perspiciatis unde</div> */}
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ const Service = () => {
               <img src={require('../../assets/images/service_icon4.png')} alt="" />
             </div>
             <div className="desc">
-              <h5 className="name">Organic Juice</h5>
-              <div className="subname">Sed ut perspiciatis unde</div>
+              <h5 className="name">Boissons</h5>
+              {/* <div className="subname">Sed ut perspiciatis unde</div> */}
             </div>
           </div>
         </div>

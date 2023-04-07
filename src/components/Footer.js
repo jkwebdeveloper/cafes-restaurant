@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const Footer = () => {
   return (
     <div>
@@ -19,18 +18,11 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               {/* hours */}
               <div className="kf-f-hours">
-                <h5>Working Hours</h5>
+                <h5>Heures d'ouverture</h5>
                 <ul>
                   <li>
-                    Sunday - Thursday
-                    <em>08:00 am - 09:00pm</em>
-                  </li>
-                  <li>
-                    Only Friday
-                    <em>03:00 pm - 09:00pm</em>
-                  </li>
-                  <li>
-                    <strong>Saturday Close</strong>
+                    Lundi - Dimanche
+                    <em>10:00 - 23:00</em>
                   </li>
                 </ul>
               </div>
@@ -38,22 +30,22 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               {/* contact */}
               <div className="kf-f-contact">
-                <h5>Contact Us</h5>
+                <h5>Contactez-nous</h5>
                 <ul>
                   <li>
                     <i className="las la-map-marker" />
-                    <em>Location :</em>
-                    55 Main Street, New York
+                    <em>adresse :</em>
+                    CHAUSSÉE D'ANVERS 84, 1000 BRUXELLES, BELGIQUE
                   </li>
                   <li>
                     <i className="las la-envelope-open-text" />
                     <em>Email Address :</em>
-                    kaffendev@gmail.com
+                    altano@live.fr
                   </li>
                   <li>
                     <i className="las la-phone" />
-                    <em>Phone Number :</em>
-                    +012 (345) 678 99
+                    <em>Numéro de téléphone :</em>
+                    +32 494 25 52 02
                   </li>
                 </ul>
               </div>
@@ -61,54 +53,72 @@ const Footer = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
               {/* gallery */}
               <div className="kf-f-gallery">
-                <h5>Gallery</h5>
+                <h5>Galerie</h5>
                 <ul>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal1.jpg")}
+                      href={require('../assets/images/grid_gal1.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal1.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal1.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal2.jpg")}
+                      href={require('../assets/images/grid_gal2.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal2.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal2.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal3.jpg")}
+                      href={require('../assets/images/grid_gal3.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal3.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal3.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal4.jpg")}
+                      href={require('../assets/images/grid_gal4.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal4.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal4.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal5.jpg")}
+                      href={require('../assets/images/grid_gal5.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal5.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal5.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                   <li>
                     <a
-                      href={require("../assets/images/grid_gal1.jpg")}
+                      href={require('../assets/images/grid_gal1.jpg')}
                       className="kf-image-hover has-popup-image"
                     >
-                      <img src={require("../assets/images/grid_gal1.jpg")} alt="" />
+                      <img
+                        src={require('../assets/images/grid_gal1.jpg')}
+                        alt=""
+                      />
                     </a>
                   </li>
                 </ul>

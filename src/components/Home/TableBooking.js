@@ -13,7 +13,7 @@ const TableBooking = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
             <div className="kf-titles">
               <div className="kf-subtitle " data-animate="active">
-                Need a Table On Coffee House
+              Besoin d'une table pour la famillie
               </div>
               <h3 className="kf-title " data-animate="active">
                Réservation pour vous et les membres de votre famille
@@ -22,7 +22,7 @@ const TableBooking = () => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
             <Link to="/reservation" className="kf-btn " data-animate="active">
-              <span>booking table</span>
+              <span>Réservez une table</span>
               <i className="fas fa-chevron-right" />
             </Link>
           </div>

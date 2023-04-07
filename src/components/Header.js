@@ -143,9 +143,9 @@ const Header = () => {
                       <li>
                         <Link to="/history">Histoire</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/team">Notre Chef</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link to="/gallery">Gallerie</Link>
                       </li>
@@ -211,9 +211,9 @@ const Header = () => {
                   <li>
                     <Link to="/history">Histoire</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/team">Notre Chef</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/gallery">Gallerie</Link>
                   </li>
