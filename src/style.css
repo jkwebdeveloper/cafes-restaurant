@@ -1650,6 +1650,12 @@ button.mfp-close:before {
   .kf-header .col-xs-12 {
     width: auto;
   }
+  .swiper-button-prev{
+    display: none;
+  }
+  .swiper-button-next{
+    display: none;
+  }
 }
 
 /**

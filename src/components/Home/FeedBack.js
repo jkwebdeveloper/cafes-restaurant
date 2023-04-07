@@ -48,7 +48,7 @@ const FeedBack = () => {
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 20,
             },
           }}
@@ -84,10 +84,7 @@ const FeedBack = () => {
                 <div className="text">
                   «Petite découverte du jour. Le lieu est propre et
                   chaleureux..on s'y sent comme à la maison. Le plat du jour"
-                  "tieboudienne" était juste un delice : copieux et appétissant.
-                  Quand est il du patron et de son épouse? Accueillant,souriant,
-                  attentif...on se sent tout de suite à l'aise. Mon fils et moi
-                  avons aimé le repas .Nous y reviendrons sûrement.»
+                  "tieboudienne" était juste un delice.»
                 </div>
                 <h5 className="name">
                   Frederick S. France <em>Web Deigner</em>
@@ -120,10 +117,7 @@ const FeedBack = () => {
                 <div className="text">
                   «Délicieux ! Le chef est super souriant, agréable et gentil.
                   Les plats étaient un vrai délice! Nous ne nous attendions pas
-                  à une telle qualité, une vraie bonne surprise ! Les quantités
-                  sont généreuses. J'ai pris les plats à emporter mais le
-                  restaurant est très joli aussi. J'y retourne dès que possible
-                  !»
+                  à une telle qualité, une vraie bonne surprise !»
                 </div>
                 <h5 className="name">
                   James M. London <em>Lawyer</em>
@@ -155,17 +149,8 @@ const FeedBack = () => {
                 </div>
                 <div className="kf-text">
                   «Premiere expérience de ce sympathique restaurant aujourd hui.
-                  Jy ai pris un plat & ‘emporter. Apparemment, pour les plats &
-                  ‘emporter, il sagit toujours du plat du jour (whésitez pas a
-                  me corriger si je fais. erreur a ce sujet). Le prix pratiqué
-                  est tres raisonnable. Je suis entré dans un lieu que jal
-                  trouvé trés classe et justement décoré, avec une ambiance
-                  jazzy tres décontractée. Cela donne envie de s'y poser un peu
-                  plus. La carte est plus étendue si vous décidez de manger sur
-                  place. Le personnel est trés accueillant et souriant et la
-                  nourriture mia semblé tout @ fait excellente, tres savoureuse.
-                  Je vous remercie pour cette belle découverte. Je ne manquerai
-                  pas de my rendre & nouveau!»
+                  Jy ai pris un plat &amp; ‘emporter. Apparemment, pour les
+                  plats &amp; ‘emporter. Le prix pratiqué est tres raisonnable.»
                 </div>
                 <h5 className="name">
                   Olivia D. New York <em>Dentist</em>
@@ -173,7 +158,7 @@ const FeedBack = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide
+          {/* <SwiperSlide
             className="swiper-slide swiper-slide-visible"
             role="group"
             aria-label="4 / 6"
@@ -271,7 +256,7 @@ const FeedBack = () => {
                 </h5>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>

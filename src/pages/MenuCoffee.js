@@ -11,23 +11,6 @@ const MenuCoffee = () => {
   return (
     <div>
       <div className="wrapper">
-        {/* Section Started Inner */}
-        {/* <section className="section kf-started-inner">
-          <div
-            className="kf-parallax-bg js-parallax"
-            style={{ backgroundImage: `url(${service3})` }}
-          />
-          <div className="container">
-            <h1
-              className="kf-h-title"
-              data-splitting="chars"
-              data-animate="active"
-            >
-              Coffee Menu
-            </h1>
-          </div>
-        </section> */}
-        {/* Section Menu */}
         <section className="section kf-menu kf-menu-tabs">
           <div className="container">
             <div className="kf-titles align-center">
