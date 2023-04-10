@@ -40,7 +40,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal1.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Pied de veau au curry.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -50,7 +50,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal2.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Bouellete de baracuda provençale.jpeg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -60,7 +60,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal3.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Bouillon de boulette de poisson.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -70,7 +70,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal4.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Boulette de boeuf sauce arachide.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -80,7 +80,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal5.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Boulette de poulet pate DArchide.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -90,7 +90,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="instagram.com" target="blank">
-              <img src={require('../../assets/images/ins_gal6.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Boulette de viande sauce tomate.jpeg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -100,7 +100,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="instagram.com" target="blank">
-              <img src={require('../../assets/images/ins_gal1.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Brochette de boeuf.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -110,7 +110,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal2.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Chevre télé jazz au champignon.jpeg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -120,7 +120,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal3.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Coquelet au four.jpeg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -130,7 +130,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal4.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Kedjienou.jpeg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -140,7 +140,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal5.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Lagneau au pois chiche.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
@@ -150,7 +150,7 @@ const ImagesSlider = () => {
         <div className="slide-item">
           <div className="image kf-image-hover">
             <Link to="#" target="blank">
-              <img src={require('../../assets/images/ins_gal6.jpg')} alt="" />
+              <img src={require('../../assets/images/plat/Ailes de poulet au four.jpg')} alt="" />
               <i className="fab fa-instagram" />
             </Link>
           </div>
