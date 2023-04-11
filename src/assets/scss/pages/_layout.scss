@@ -306,7 +306,7 @@
       font-size: 50px;
       line-height: 60px;
     }
-    .swiper-button-prev{
+    .swiper-button-prev {
       display: none;
     }
     .subtitles {
@@ -2220,7 +2220,7 @@
   -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.kf-filter a.active {
+.kf-filter a:hover {
   color: #fff;
   background: $base_link_color;
 }

@@ -29,10 +29,12 @@ const Reservation = () => {
         </section> */}
         {/* Section Reservation */}
         <section className="section kf-reservation">
-          <MakeYourTable/>
+          <MakeYourTable />
         </section>
         {/* Section Insta Carousel */}
-        <ImagesSlider />
+        <div className="section kf-insta-carousel" data-animate="active">
+          <ImagesSlider />
+        </div>
         {/* Section Brands */}
         <div className="section kf-brands">
           <Brands />

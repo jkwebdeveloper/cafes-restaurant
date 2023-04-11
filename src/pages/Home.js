@@ -10,13 +10,14 @@ import 'swiper/css'
 import { Autoplay, Navigation } from 'swiper'
 import Herosection from '../components/Home/Herosection'
 import ServiceSection from '../components/Home/ServiceSection'
-import KFmenu from '../components/Home/KFmenu'
+// import KFmenu from '../components/Home/KFmenu'
 import ChooseUs from '../components/Home/ChooseUs'
 import KFGridSlider from '../components/Home/KFGridSlider'
 import FeedBack from '../components/Home/FeedBack'
 import ClientNumbers from '../components/Home/ClientNumbers'
 import TableBooking from '../components/Home/TableBooking'
 import { Link } from 'react-router-dom'
+import Menu from '../components/Menu'
 
 const Home = () => {
   const [index, setIndex] = useState(null)
@@ -177,7 +178,7 @@ const Home = () => {
         className="section kf-menu kf-parallax"
         style={{ backgroundImage: `url(${category_bg})` }}
       >
-        <KFmenu />
+        <Menu/>
       </section>
       {/* Section Choose */}
       <section className="section kf-choose section-bg">
