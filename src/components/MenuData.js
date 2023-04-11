@@ -1,6 +1,30 @@
 const MenuData = [
   {
     id: 1,
+    image: require('../assets/images/desserts/Colonel.jpg'),
+    name: 'Spaghtti Bolonaise',
+    category: 'Desserts',
+    price: '$4.9',
+    description: '2/3 espresso, 1/3 streamed milk',
+  },
+  {
+    id: 2,
+    image: require('../assets/images/desserts/Dame blanche.jpg'),
+    name: 'goie de Volaille',
+    category: 'Desserts',
+    price: '$4.9',
+    description: '2/3 espresso, 1/3 streamed milk',
+  },
+  {
+    id: 3,
+    image: require('../assets/images/desserts/la-dame-noire.jpg'),
+    name: 'jareete de boeuf',
+    category: 'Desserts',
+    price: '$4.9',
+    description: '2/3 espresso, 1/3 streamed milk',
+  },
+  {
+    id: 4,
     image: require('../assets/images/plat/Ailes de poulet au four.jpg'),
     name: 'Ailes de poulet au four',
     category: 'Plats',
@@ -8,7 +32,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 2,
+    id: 5,
     image: require('../assets/images/plat/Bouellete de baracuda provençale.jpeg'),
     name: 'Bouellete de baracuda provençale',
     category: 'Plats',
@@ -16,7 +40,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 3,
+    id: 6,
     image: require('../assets/images/plat/Bouillon de boulette de poisson.jpg'),
     name: 'Bouillon de boulette de poisson',
     category: 'Plats',
@@ -24,7 +48,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 4,
+    id: 7,
     image: require('../assets/images/plat/Boulette de boeuf sauce arachide.jpg'),
     name: 'Boulette de boeuf sauce arachide',
     category: 'Plats',
@@ -32,7 +56,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 5,
+    id: 8,
     image: require('../assets/images/plat/Boulette de poulet pate DArchide.jpg'),
     name: 'Boulette de poulet pate DArchide',
     category: 'Plats',
@@ -40,7 +64,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 6,
+    id: 9,
     image: require('../assets/images/plat/Boulette de viande sauce tomate.jpeg'),
     name: 'Boulette de viande sauce tomate',
     category: 'Plats',
@@ -48,7 +72,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 7,
+    id: 10,
     image: require('../assets/images/plat/Brochette de boeuf.jpg'),
     name: 'Brochette de boeuf',
     category: 'Plats',
@@ -56,7 +80,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 8,
+    id: 11,
     image: require('../assets/images/plat/Chevre télé jazz au champignon.jpeg'),
     name: 'Chevre télé jazz au champignon',
     category: 'Plats',
@@ -64,7 +88,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 9,
+    id: 12,
     image: require('../assets/images/plat/Coquelet au four.jpeg'),
     name: 'Coquelet au four',
     category: 'Plats',
@@ -72,7 +96,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 10,
+    id: 13,
     image: require('../assets/images/plat/Kedjienou.jpeg'),
     name: 'Kedjienou',
     category: 'Plats',
@@ -80,7 +104,7 @@ const MenuData = [
     description: '2/3 espresso, 1/3 streamed milk',
   },
   {
-    id: 11,
+    id: 14,
     image: require('../assets/images/plat/Lagneau au pois chiche.jpg'),
     name: 'Lagneau au pois chiche',
     category: 'Plats',
@@ -88,7 +112,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 12,
+    id: 15,
     image: require('../assets/images/plat/Pied de veau au curry.jpg'),
     name: 'Pied de veau au curry',
     category: 'Plats',
@@ -96,7 +120,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 13,
+    id: 16,
     image: require('../assets/images/plat/Pizza magarita.jpg'),
     name: 'Pizza magarita',
     category: 'Plats',
@@ -104,7 +128,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 14,
+    id: 17,
     image: require('../assets/images/plat/Pizza trois fromages .jpg'),
     name: 'Pizza trois fromages',
     category: 'Plats',
@@ -112,7 +136,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 15,
+    id: 18,
     image: require('../assets/images/plat/Poulet yassa avec du riz.jpg'),
     name: 'Poulet yassa avec du riz',
     category: 'Plats',
@@ -120,7 +144,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 16,
+    id: 19,
     image: require('../assets/images/plat/Riz au gras au poisson.jpg'),
     name: 'Riz au gras au poisson',
     category: 'Plats',
@@ -128,7 +152,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 17,
+    id: 20,
     image: require('../assets/images/plat/Saucisses libanaises.jpeg'),
     name: 'Saucisses libanaises',
     category: 'Plats',
@@ -136,7 +160,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 18,
+    id: 21,
     image: require('../assets/images/plat/Spaghtti Bolonaise.jpeg'),
     name: 'Spaghtti Bolonaise',
     category: 'Plats',
@@ -144,7 +168,7 @@ const MenuData = [
     description: '',
   },
   {
-    id: 19,
+    id: 22,
     image: require('../assets/images/plat/goie de Volaille.jpg'),
     name: 'goie de Volaille',
     category: 'Plats',
@@ -152,34 +176,10 @@ const MenuData = [
     description: '',
   },
   {
-    id: 20,
+    id: 23,
     image: require('../assets/images/plat/jareete de boeuf.jpg'),
     name: 'jareete de boeuf',
     category: 'Plats',
-    price: '',
-    description: '',
-  },
-  {
-    id: 21,
-    image: require('../assets/images/desserts/Colonel.jpg'),
-    name: 'Spaghtti Bolonaise',
-    category: 'Desserts',
-    price: '',
-    description: '',
-  },
-  {
-    id: 22,
-    image: require('../assets/images/desserts/Dame blanche.jpg'),
-    name: 'goie de Volaille',
-    category: 'Desserts',
-    price: '',
-    description: '',
-  },
-  {
-    id: 23,
-    image: require('../assets/images/desserts/la-dame-noire.jpg'),
-    name: 'jareete de boeuf',
-    category: 'Desserts',
     price: '',
     description: '',
   },

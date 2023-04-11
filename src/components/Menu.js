@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import menu_logo from '../assets/images/menu_logo.png'
-
 import MenuData from './MenuData'
 
 const Menu = () => {
@@ -30,13 +29,21 @@ const Menu = () => {
           <a to="#" data-href=".all" onClick={() => setItems(MenuData)}>
             Toute
           </a>
-          <a to="#" data-href=".hot-coffee" onClick={() => filterItem('Entrées')}>
+          <a
+            to="#"
+            data-href=".hot-coffee"
+            onClick={() => filterItem('Entrées')}
+          >
             Entrées
           </a>
           <a to="#" data-href=".hot-coffee" onClick={() => filterItem('Plats')}>
             Plats
           </a>
-          <a to="#" data-href=".hot-coffee" onClick={() => filterItem('Boissons')}>
+          <a
+            to="#"
+            data-href=".hot-coffee"
+            onClick={() => filterItem('Boissons')}
+          >
             Boissons
           </a>
           <a to="#" data-href=".dessert" onClick={() => filterItem('Desserts')}>
