@@ -10,7 +10,7 @@ import 'swiper/css'
 import { Autoplay, Navigation } from 'swiper'
 import Herosection from '../components/Home/Herosection'
 import ServiceSection from '../components/Home/ServiceSection'
-// import KFmenu from '../components/Home/KFmenu'
+// import KFmenu from '../components/Home/KFmenu'  
 import ChooseUs from '../components/Home/ChooseUs'
 import KFGridSlider from '../components/Home/KFGridSlider'
 import FeedBack from '../components/Home/FeedBack'
@@ -21,7 +21,6 @@ import Menu from '../components/Menu'
 
 const Home = () => {
   const [index, setIndex] = useState(null)
-
   const prevRef = useRef(null)
   const nextRef = useRef(null)
 

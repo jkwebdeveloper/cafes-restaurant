@@ -5,6 +5,7 @@ import MenuData from './MenuData'
 
 const Menu = () => {
   const [items, setItems] = useState(MenuData)
+      
 
   const filterItem = (cateItem) => {
     const updateItems = MenuData.filter((curElem) => {
@@ -13,7 +14,7 @@ const Menu = () => {
 
     setItems(updateItems)
   }
-
+  
   return (
     <section className="section kf-menu kf-menu-tabs">
       <div className="container">
